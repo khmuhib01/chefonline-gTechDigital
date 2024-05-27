@@ -12,7 +12,7 @@
     <meta name="p:domain_verify" content="8ff7b843702af006789b141a2b28c839" />
 
     <!-- Favicone Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/frontend/images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
 
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
@@ -73,7 +73,6 @@
 
 
     <!-- Site Wraper End -->
-
     <script src="{{ asset('assets/frontend/js/jquery-1.12.4.min.js') }}" type="text/javascript"></script>
 
     <!-- Easing Effect Js -->
@@ -152,9 +151,6 @@
         // });
     </script>
     <!-- End newsletter -->
-
-
-
 
 </body>
 
