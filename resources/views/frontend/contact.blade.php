@@ -1,9 +1,8 @@
 @extends('frontend.include.layout')
 
-@section('title', 'Gtech | SEO, Digital Marketing, Web Design & Development')
+@section('title', 'Contact Us | GTech Solution')
 @section('description',
-    'UK based, GTech Solution offers Website Design and Development, App Development with expert
-    Digital Marketing services. Specialises in Restaurant SEO and SMM.')
+    'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone- 0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
 
 @section('content')
 
