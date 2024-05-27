@@ -1,6 +1,6 @@
 <div class="wrapper">
     <div id="header" class="header header-2">
-        <div id="top-bar" class="top-bar-section top-bar-bg-color">
+        {{-- <div id="top-bar" class="top-bar-section top-bar-bg-color">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -24,12 +24,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="container secondary-header">
             <div class="row">
                 <div class="col-sm-3 col-md-5">
                     <div class="logo">
-                        <a href=""><img src="{{ asset('assets/frontend/images/logo.png') }}"
+                        <a href="{{ route('home')}}"><img src="{{ asset('assets/frontend/images/logo.png') }}"
                                 alt="Global Tech Solution Logo"></a>
                     </div>
                     <button id="menu" class="menu visible-xs"></button>
@@ -39,7 +39,7 @@
                         <ul>
                             <li>
                                 <i class="ion-ios-email-outline"></i> <a
-                                    href="mailto:qz6r8@example.com">qz6r8@example.com</a>
+                                    href="mailto:support@example.com">support@example.com</a>
                             </li>
                             <li>
                                 <i class="ion-iphone"></i>
@@ -56,22 +56,22 @@
                     <div class="col-sm-12">
                         <nav class="navigation">
                             <ul>
-                                <li> <a href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>">Home</a>
+                                <li> <a href="{{ route('home') }}">Home</a>
                                 </li>
                                 <li> <a href="javascript:avoid(0);">Services</a> <i
                                         class="ion-ios-plus-empty visible-xs"></i>
                                     <ul class="sub-nav">
-                                        <li><a href="web-development">Web Development</a></li>
-                                        <li><a href="digital-marketing">Digital Marketing</a></li>
-                                        <li><a href="mobile-app-development">Mobile App Development</a></li>
-                                        <li><a href="custom-software-development">Custom Software Development</a>
+                                        <li><a href="#">Web Development</a></li>
+                                        <li><a href="#">Digital Marketing</a></li>
+                                        <li><a href="#">Mobile App Development</a></li>
+                                        <li><a href="#">Custom Software Development</a>
                                         </li>
                                         <!-- <li><a href="graphic-design">Graphic Design</a></li> -->
                                     </ul>
                                 </li>
-                                <li> <a href="packages-and-pricing">SEO Packages</a> </li>
-                                <li><a href="portfolio">Portfolio</a></li>
-                                <li> <a href="contact">contact us</a> </li>
+                                <li> <a href="{{ route('packages')}}">SEO Packages</a> </li>
+                                <li><a href="{{ route('portfolio')}}">Portfolio</a></li>
+                                <li> <a href="{{ route('contact')}}">contact us</a> </li>
                             </ul>
                         </nav>
                     </div>
