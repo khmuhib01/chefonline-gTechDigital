@@ -1,8 +1,7 @@
 @extends('frontend.include.layout')
 
-@section('title', 'Gtech | SEO, Digital Marketing, Web Design & Development')
-@section('description', 'UK based, GTech Solution offers Website Design and Development, App Development with expert
-    Digital Marketing services. Specialises in Restaurant SEO and SMM.')
+@section('title', 'SEO Pricing | Digital Campaign for Local Business | GTech')
+@section('description', 'Get desired results for your website’s online visibility. No matter a website is new or old, our packages are tailored to leverage in SERP ranking.')
 
 @section('content')
 
