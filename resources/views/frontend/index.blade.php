@@ -3,10 +3,6 @@
 @section('title', 'Home')
 
 @section('content')
-    <h1>dasdas</h1>
-    <h1>dasdas</h1>
-    <h1>dasdas</h1>
-    <h1>dasdas</h1>
-    <h1>dasdas</h1>
+    <h1>Testing</h1>
 
 @endsection
