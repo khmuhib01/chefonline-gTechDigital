@@ -1,7 +1,7 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Gtech | SEO, Digital Marketing, Web Design & Development')
-@section('description', 'UK based, GTech Digital offers Website Design and Development, App Development with expert
+@section('description', 'UK based, GTech Digital Offers Website Design and Development, App Development with expert
     Digital Marketing services. Specialises in Restaurant SEO and SMM.')
 
 @section('content')

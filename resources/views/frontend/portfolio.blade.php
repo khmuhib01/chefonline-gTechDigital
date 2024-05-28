@@ -1,7 +1,7 @@
 @extends('frontend.include.layout')
 
-@section('title', 'Global Tech Solution | Portfolio')
-@section('description', 'Global Tech Solution | Portfolio')
+@section('title', 'Global Tech Digital | Portfolio')
+@section('description', 'Global Tech Digital | Portfolio')
 
 @section('content')
 

@@ -1,9 +1,9 @@
 @extends('frontend.include.layout')
 
-@section('title', 'Contact Us | GTech Solution')
+@section('title', 'Contact Us | GTech Digital')
 @section('description',
     'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
-    0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
+    0203 598 5956, 0330 380 1000, Email - info@gtechdigital.co.uk')
 
 @section('content')
 
@@ -33,7 +33,7 @@
                             protects you.</p>
                         <p>This privacy notice is provided in a layered format so you can click through to the specific
                             areas set out below. Alternatively you can download a pdf version of the policy <a
-                                href="http://www.gtechsolution.co.uk/gtechsolution-privacy-policy.pdf"
+                                href="#"
                                 class="policylink2">here</a>.</p>
 
                         <h2><b>1. Important information and who we are</b></h2>
@@ -157,7 +157,7 @@
                                 collect this personal data by using cookies, server logs and other similar technologies. We
                                 may also receive Technical Data about you if you visit other websites employing our cookies.
                                 Please see our cookie policy <a class="policylink2"
-                                    href="http://www.gtechsolution.co.uk/cookie-policy">http://www.gtechsolution.co.uk/cookie-policy</a>
+                                    href="http://www.gtechdigital.co.uk/cookie-policy">http://www.gtechdigital.co.uk/cookie-policy</a>
                                 for further details.</li>
                             <li><b>Third parties or publicly available sources.</b> We may receive personal data about you
                                 from various third parties and public sources as set out below
@@ -410,8 +410,8 @@
                         <p>You can set your browser to refuse all or some browser cookies, or to alert you when websites set
                             or access cookies. If you disable or refuse cookies, please note that some parts of this website
                             may become inaccessible or not function properly. For more information about the cookies we use,
-                            please see <a href="http://www.gtechsolution.co.uk/cookie-policy"
-                                class="policylink2">http://www.gtechsolution.co.uk/cookie-policy</a></p>
+                            please see <a href="http://www.gtechdigital.co.uk/cookie-policy"
+                                class="policylink2">http://www.gtechdigital.co.uk/cookie-policy</a></p>
                         <p>Change of purpose</p>
                         <p>We will only use your personal data for the purposes for which we collected it, unless we
                             reasonably consider that we need to use it for another reason and that reason is compatible with
@@ -512,7 +512,7 @@
                         </ul>
 
                         <p>If you wish to exercise any of the rights set out above, please <a class="policylink2"
-                                href="http://www.gtechsolution.co.uk/contact-us">contact us.</a></p>
+                                href="http://www.gtechdigital.co.uk/contact-us">contact us.</a></p>
 
                         <h2><b>No fee usually required</b></h2>
                         <p>You will not have to pay a fee to access your personal data (or to exercise any of the other
