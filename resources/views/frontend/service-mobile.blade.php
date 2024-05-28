@@ -1,7 +1,8 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Contact Us | GTech Solution')
-@section('description', 'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
+@section('description',
+    'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
     0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
 
 @section('content')
@@ -114,13 +115,13 @@
                 <div class="col-md-3 col-sm-4 content-section">
                     <div class="sidebar">
                         <ul class="list-unstyled">
-                            <li><a href="{{ route('service-seo')}}">SEO Service</a></li>
-                            <li><a href="{{ route('service-social-media')}}">Social Media Marketing</a></li>
-                            <li><a href="{{ route('service-facebook-advertisement')}}">Facebook Advertisement</a></li>
-                            <li><a href="{{ route('service-email-marketing')}}">Email Marketing</a></li>
-                            <li><a href="{{ route('service-content-management')}}">Content Management</a></li>
-                            <li><a href="{{ route('service-restaurant-seo')}}">Restaurant SEO</a></li>
-                            <li class="active"><a href="{{ route('service-mobile')}}">Digital Marketing on Mobile</a></li>
+                            <li><a href="{{ route('service-seo') }}">SEO Service</a></li>
+                            <li><a href="{{ route('service-social-media') }}">Social Media Marketing</a></li>
+                            <li><a href="{{ route('service-facebook-advertisement') }}">Facebook Advertisement</a></li>
+                            <li><a href="{{ route('service-email-marketing') }}">Email Marketing</a></li>
+                            <li><a href="{{ route('service-content-management') }}">Content Management</a></li>
+                            <li><a href="{{ route('service-restaurant-seo') }}">Restaurant SEO</a></li>
+                            <li class="active"><a href="{{ route('service-mobile') }}">Digital Marketing on Mobile</a></li>
                         </ul>
                     </div><!-- end sidebar -->
                 </div>

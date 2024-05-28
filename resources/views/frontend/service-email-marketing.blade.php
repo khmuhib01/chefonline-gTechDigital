@@ -41,7 +41,7 @@
                             </p>
                         </div>
                         <div class="col-md-6 col-sm-5">
-                            <img src="{{ asset('assets/frontend/images/email-marketing.jpg')}}" alt="Email Marketing">
+                            <img src="{{ asset('assets/frontend/images/email-marketing.jpg') }}" alt="Email Marketing">
                         </div>
                     </div>
                     <div class="row">
@@ -80,13 +80,13 @@
                 <div class="col-md-3 col-sm-4 content-section">
                     <div class="sidebar">
                         <ul class="list-unstyled">
-                            <li><a href="{{ route('service-seo')}}">SEO Service</a></li>
-                            <li><a href="{{ route('service-social-media')}}">Social Media Marketing</a></li>
-                            <li><a href="{{ route('service-facebook-advertisement')}}">Facebook Advertisement</a></li>
-                            <li class="active"><a href="{{ route('service-email-marketing')}}">Email Marketing</a></li>
-                            <li><a href="{{ route('service-content-management')}}">Content Management</a></li>
-                            <li><a href="{{ route('service-restaurant-seo')}}">Restaurant SEO</a></li>
-                            <li><a href="{{ route('service-mobile')}}">Digital Marketing on Mobile</a></li>
+                            <li><a href="{{ route('service-seo') }}">SEO Service</a></li>
+                            <li><a href="{{ route('service-social-media') }}">Social Media Marketing</a></li>
+                            <li><a href="{{ route('service-facebook-advertisement') }}">Facebook Advertisement</a></li>
+                            <li class="active"><a href="{{ route('service-email-marketing') }}">Email Marketing</a></li>
+                            <li><a href="{{ route('service-content-management') }}">Content Management</a></li>
+                            <li><a href="{{ route('service-restaurant-seo') }}">Restaurant SEO</a></li>
+                            <li><a href="{{ route('service-mobile') }}">Digital Marketing on Mobile</a></li>
                         </ul>
                     </div><!-- end sidebar -->
                 </div>

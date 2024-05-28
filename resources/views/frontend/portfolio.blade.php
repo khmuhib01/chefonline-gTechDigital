@@ -40,7 +40,6 @@
                             <div class="hov">
                                 <div class="info-content">
                                     <span>ARTA UK</span>
-                                    <!-- <a target="_blank" href="http://www.artauk.com/">View Website</a>  -->
                                     <a target="_blank" href="https://www.artauk.com/"><i class="fa fa-caret-right"></i> View
                                         Details</a>
                                 </div>
@@ -56,7 +55,6 @@
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Nowka Bais</span>
-                                    <!-- <a target="_blank" href="http://www.theschoonerhotel.co.uk/">View Website</a> -->
                                     <a target="_blank" href="https://www.nowkabais.co.uk/"><i class="fa fa-caret-right"></i>
                                         View Details</a>
                                 </div>
@@ -72,7 +70,6 @@
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Nurani Consultancy</span>
-                                    <!-- <a target="_blank" href="http://www.homewarrantyuk.com/">View Website</a> -->
                                     <a target="_blank" href="https://www.nuraniconsultancy.org/"><i
                                             class="fa fa-caret-right"></i> View Details</a>
                                 </div>
@@ -372,7 +369,8 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box seo-service text-center">
                     <div class="single-event btn-design" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{ asset('assets/frontend/images/seoservice/shadindian.jpg') }}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/seoservice/shadindian.jpg') }}"
                                 alt="Shad Indian Restaurant">
                             <div class="hov">
                                 <div class="info-content">
@@ -751,10 +749,11 @@
                 <div class="col-md-3 business-card col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/cafe_massala_thamb.png')}}" class="img-responsive"
-                                alt="Bayleaf">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/cafe_massala_thamb.png') }}"
+                                class="img-responsive" alt="Bayleaf">
                             <div class="hov">
-                                <a class="fancybox-media zoom-icon" href="{{url('assets/frontend/images/graphicdesign/cafe_massala.png')}}"
+                                <a class="fancybox-media zoom-icon"
+                                    href="{{ url('assets/frontend/images/graphicdesign/cafe_massala.png') }}"
                                     class="portfolio-link" target="_blank">
                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                 </a>
@@ -766,10 +765,11 @@
                 <div class="col-md-3 leaflet col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/calcutta16_thamb.png')}}" class="img-responsive"
-                                alt="Bayleaf">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/calcutta16_thamb.png') }}"
+                                class="img-responsive" alt="Bayleaf">
                             <div class="hov">
-                                <a class="fancybox-media zoom-icon" href="{{url('assets/frontend/images/graphicdesign/calcutta16.png')}}"
+                                <a class="fancybox-media zoom-icon"
+                                    href="{{ url('assets/frontend/images/graphicdesign/calcutta16.png') }}"
                                     class="portfolio-link" target="_blank"><i class="fa fa-search-plus"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -779,12 +779,13 @@
                 <div class="col-md-3 takeaway-menu col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{ asset('assets/frontend/images/graphicdesign/newtown_tandoori_thamb.png') }}" class="img-responsive"
-                                alt="Bayleaf">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/newtown_tandoori_thamb.png') }}"
+                                class="img-responsive" alt="Bayleaf">
                             <div class="hov">
                                 <a class="fancybox-media zoom-icon"
-                                    href="{{url('assets/frontend/images/graphicdesign/newtown_tandoori.png')}}" class="portfolio-link"
-                                    target="_blank"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                    href="{{ url('assets/frontend/images/graphicdesign/newtown_tandoori.png') }}"
+                                    class="portfolio-link" target="_blank"><i class="fa fa-search-plus"
+                                        aria-hidden="true"></i></a>
 
                             </div>
                         </div>
@@ -793,10 +794,11 @@
                 <div class="col-md-3 takeaway-menu col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/tamasha_thamb.png')}}" class="img-responsive"
-                                alt="Bayleaf">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/tamasha_thamb.png') }}"
+                                class="img-responsive" alt="Bayleaf">
                             <div class="hov">
-                                <a class="fancybox-media zoom-icon" href="{{url('assets/frontend/images/graphicdesign/tamasha.png')}}"
+                                <a class="fancybox-media zoom-icon"
+                                    href="{{ url('assets/frontend/images/graphicdesign/tamasha.png') }}"
                                     class="portfolio-link" target="_blank"><i class="fa fa-search-plus"
                                         aria-hidden="true"></i></a>
                             </div>
@@ -806,10 +808,11 @@
                 <div class="col-md-3 takeaway-menu col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/tokyo_sushi_thamb.png')}}" class="img-responsive"
-                                alt="Bayleaf">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/tokyo_sushi_thamb.png') }}"
+                                class="img-responsive" alt="Bayleaf">
                             <div class="hov">
-                                <a class="fancybox-media zoom-icon" href="{{url('assets/frontend/images/graphicdesign/tokyo_sushi')}}"
+                                <a class="fancybox-media zoom-icon"
+                                    href="{{ url('assets/frontend/images/graphicdesign/tokyo_sushi') }}"
                                     class="portfolio-link" target="_blank">
                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                 </a>
@@ -825,12 +828,13 @@
                 <div class="col-md-3 business-card col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/bayleaf-thamb.png')}}" class="img-responsive"
-                                alt="Bayleaf">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/bayleaf-thamb.png') }}"
+                                class="img-responsive" alt="Bayleaf">
                             <div class="hov">
                                 <a class="fancybox-media zoom-icon"
-                                    href="{{url('assets/frontend/images/graphicdesign/bayleaf-fullview.png')}}" class="portfolio-link"
-                                    target="_blank"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                    href="{{ url('assets/frontend/images/graphicdesign/bayleaf-fullview.png') }}"
+                                    class="portfolio-link" target="_blank"><i class="fa fa-search-plus"
+                                        aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -838,7 +842,8 @@
                 <div class="col-md-3 business-card col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/desi_thamb.png')}}" class="img-responsive" alt="Desi">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/desi_thamb.png') }}"
+                                class="img-responsive" alt="Desi">
                             <div class="hov">
                                 <a class="fancybox-media zoom-icon" href="assets/images/graphicdesign/Desi-Biz-full.jpg"
                                     class="portfolio-link" target="_blank"><i class="fa fa-search-plus"
@@ -850,8 +855,8 @@
                 <div class="col-md-3 business-card col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/mahal_thamb.png')}}" class="img-responsive"
-                                alt="The Mughal Business Card">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/mahal_thamb.png') }}"
+                                class="img-responsive" alt="The Mughal Business Card">
                             <div class="hov">
                                 <a class="fancybox-media zoom-icon"
                                     href="assets/images/graphicdesign/The-Mughal-Biz-Card-2-1.jpg" class="portfolio-link"
@@ -864,8 +869,8 @@
                     class="col-md-3 ala-carte-menu col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/meghna_thamb.png')}}" class="img-responsive"
-                                alt="Meghna">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/meghna_thamb.png') }}"
+                                class="img-responsive" alt="Meghna">
                             <div class="hov">
                                 <a class="fancybox-media zoom-icon" href="assets/images/graphicdesign/Meghna_fullView.jpg"
                                     class="portfolio-link" target="_blank"><i class="fa fa-search-plus"
@@ -877,8 +882,8 @@
                 <div class="col-md-3 takeaway-menu col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/moment_thamb.png')}}" class="img-responsive"
-                                alt="Moment">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/moment_thamb.png') }}"
+                                class="img-responsive" alt="Moment">
                             <div class="hov">
                                 <a class="fancybox-media zoom-icon" href="assets/images/graphicdesign/moment_fullview.jpg"
                                     class="portfolio-link" target="_blank"><i class="fa fa-search-plus"
@@ -890,8 +895,8 @@
                 <div class="col-md-3 takeaway-menu col-sm-6 marginbottom30 iso-box graphic-design text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img src="{{asset('assets/frontend/images/graphicdesign/rajdoot_thamb.png')}}" class="img-responsive"
-                                alt="Rajdoot">
+                            <img src="{{ asset('assets/frontend/images/graphicdesign/rajdoot_thamb.png') }}"
+                                class="img-responsive" alt="Rajdoot">
 
                             <div class="hov">
                                 <a class="fancybox-media zoom-icon"
@@ -907,18 +912,21 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/curry-world.png')}}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/curry-world.png') }}"
                                 alt="Curry word restaurant">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Curry World</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.lechef.curryworldindian">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://itunes.apple.com/us/app/curry-world/id1045016946?mt=8">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>
@@ -930,17 +938,20 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/sushi-world.png')}}" alt="Sushi World">
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/sushi-world.png') }}" alt="Sushi World">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Sushi World</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.lechef.Sushijapanese">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://itunes.apple.com/us/app/sushi-japanese/id1046231932?mt=8">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>
@@ -953,18 +964,21 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/stoneleigh-brasserie.png')}}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/stoneleigh-brasserie.png') }}"
                                 alt="Sesame Restaurant">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Stoneleigh Brasserie</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.lechef.stoneleigh">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://apps.apple.com/us/app/stoneleigh-brasserie/id1085041235">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>
@@ -975,18 +989,21 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/bayleaf-takeaway.png')}}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/bayleaf-takeaway.png') }}"
                                 alt="bayleaf takeaway services">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Bayleaf Takeaway</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.lechef.Bayleaftakeway">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://itunes.apple.com/us/app/bayleaf-takeaway/id1041798556?mt=8">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>
@@ -998,18 +1015,21 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/new-curry-centre.png')}}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/new-curry-centre.png') }}"
                                 alt="New Curry Centre">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>New Curry Centre</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.thenewcurrycentre">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://apps.apple.com/us/app/new-curry-centre/id1183350057?ls=1">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>
@@ -1019,18 +1039,21 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/mughal-dynasty.png')}}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/mughal-dynasty.png') }}"
                                 alt="Mughal Dynasty">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Mughal Dynasty</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.mughaldynasty">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://itunes.apple.com/us/app/mughal-dynasty/id1027751169?mt=8">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>
@@ -1041,18 +1064,21 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/thali-and-pickles.png')}}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/thali-and-pickles.png') }}"
                                 alt="Thali and Pickles">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Thali and Pickles</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.lechef.Thalipickles">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://itunes.apple.com/us/app/thali-and-pickles/id1093136749?mt=8">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>
@@ -1064,18 +1090,21 @@
                 <div class="col-md-3 col-sm-6 marginbottom30 iso-box mobile-app-development text-center">
                     <div class="single-event" data-appear-animation="bounceInRight">
                         <div class="portfolio-link">
-                            <img class="img-responsive" src="{{asset('assets/frontend/images/ourwork/tandoori-nights.png')}}"
+                            <img class="img-responsive"
+                                src="{{ asset('assets/frontend/images/ourwork/tandoori-nights.png') }}"
                                 alt="Tandoori Nights">
                             <div class="hov">
                                 <div class="info-content">
                                     <span>Tandoori Nights</span>
                                     <a target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.lechef.tandoorinights">
-                                        <img alt="android apps button" src="{{asset('assets/frontend/images/android-button.png')}}">
+                                        <img alt="android apps button"
+                                            src="{{ asset('assets/frontend/images/android-button.png') }}">
                                     </a>
                                     <a target="_blank"
                                         href="https://itunes.apple.com/us/app/tandoori-nights/id1041801744?mt=8">
-                                        <img alt="apple apps button" src="{{asset('assets/frontend/images/apple-button.png')}}">
+                                        <img alt="apple apps button"
+                                            src="{{ asset('assets/frontend/images/apple-button.png') }}">
                                     </a>
                                 </div>
                             </div>

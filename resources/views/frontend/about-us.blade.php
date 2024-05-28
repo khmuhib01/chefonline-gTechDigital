@@ -1,7 +1,8 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Contact Us | GTech Solution')
-@section('description', 'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
+@section('description',
+    'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
     0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
 
 @section('content')
@@ -25,21 +26,18 @@
                     <div class="single-sidebar-widget">
                         <div class="special-links">
                             <ul>
-                                <!--  <li><a class="active" href="about-us">About us</a></li> -->
-                                <li><a href="{{ route('web-development')}}">Web Development</a></li>
-                                <li><a href="{{ route('mobile-app-development')}}">Mobile App Development</a></li>
-                                <li><a href="{{ route('custom-software-development')}}">Custom Software Development</a></li>
-                                <li><a href="{{ route('graphic-design')}}">Graphic Design</a></li>
-                                <li><a href="{{ route('digital-marketing')}}">Digital Marketing</a></li>
+                                <li><a href="{{ route('web-development') }}">Web Development</a></li>
+                                <li><a href="{{ route('mobile-app-development') }}">Mobile App Development</a></li>
+                                <li><a href="{{ route('custom-software-development') }}">Custom Software Development</a>
+                                </li>
+                                <li><a href="{{ route('graphic-design') }}">Graphic Design</a></li>
+                                <li><a href="{{ route('digital-marketing') }}">Digital Marketing</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-9">
                     <div class="text-box mt-xs-30">
-                        <!-- <div class="box-title mb-20">
-                          <h2>Web Development</h2>
-                        </div> -->
                         <div class="text-content mb-45">
                             <div class="box-title mb-20">
                                 <h4>About Global Tech Solution</h4>

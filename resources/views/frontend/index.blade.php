@@ -1,7 +1,8 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Gtech | SEO, Digital Marketing, Web Design & Development')
-@section('description', 'UK based, GTech Digital offers Website Design and Development, App Development with expert Digital Marketing services. Specialises in Restaurant SEO and SMM.')
+@section('description', 'UK based, GTech Digital offers Website Design and Development, App Development with expert
+    Digital Marketing services. Specialises in Restaurant SEO and SMM.')
 
 @section('content')
 
@@ -14,7 +15,8 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-129">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('assets/frontend/images/banner/gtech-slider.jpg') }}" alt="Gtech Slider1" class="rev-slidebg">
+                        <img src="{{ asset('assets/frontend/images/banner/gtech-slider.jpg') }}" alt="Gtech Slider1"
+                            class="rev-slidebg">
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 2 -->
@@ -42,7 +44,8 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-131">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('assets/frontend/images/banner/Gtech-seo-slider3.jpg') }}" alt="Gtech SEO slide" class="rev-slidebg ">
+                        <img src="{{ asset('assets/frontend/images/banner/Gtech-seo-slider3.jpg') }}" alt="Gtech SEO slide"
+                            class="rev-slidebg ">
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 2 -->
@@ -105,7 +108,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>Web Development</h3>
-                        <a href="{{route('web-development')}}" class="tw-readmore">Read More
+                        <a href="{{ route('web-development') }}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -122,7 +125,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>Digital Marketing</h3>
-                        <a href="{{route('digital-marketing')}}" class="tw-readmore">Read More
+                        <a href="{{ route('digital-marketing') }}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -139,7 +142,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>App Development</h3>
-                        <a href="{{route('mobile-app-development')}}" class="tw-readmore">Read More
+                        <a href="{{ route('mobile-app-development') }}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -155,7 +158,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>Software Development</h3>
-                        <a href="{{route('custom-software-development')}}" class="tw-readmore">Read More
+                        <a href="{{ route('custom-software-development') }}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -174,7 +177,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-push-6 col-md-5 col-md-push-5 col-md-offset-1">
-                    <img class="img-responsive center-block" src="{{ asset('assets/frontend/images/web-design-development.png') }}"
+                    <img class="img-responsive center-block"
+                        src="{{ asset('assets/frontend/images/web-design-development.png') }}"
                         alt="Web Development and Design">
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5">
@@ -190,7 +194,8 @@
                         <li><i class="ti-headphone-alt"></i> Customer experience enhancing web designs</li>
                         <li><i class="fa fa-money"></i> Ident creation that leaves a lasting impression </li>
                     </ul>
-                    <a href="{{route('web-development')}}" class="btn btn-custom text-uppercase transition custom-radius">View
+                    <a href="{{ route('web-development') }}"
+                        class="btn btn-custom text-uppercase transition custom-radius">View
                         Details</a>
                 </div>
             </div>
@@ -202,7 +207,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 text-center">
-                    <img class="info-image" src="{{ asset('assets/frontend/images/additional-info.png') }}" alt="Additional Info">
+                    <img class="info-image" src="{{ asset('assets/frontend/images/additional-info.png') }}"
+                        alt="Additional Info">
                 </div>
                 <div class="col-sm-6">
                     <div class="section-top">
@@ -218,7 +224,8 @@
                         <li><i class="ti-bar-chart"></i> Social Media Presence and Engagement</li>
                         <li><i class="ti-bar-chart"></i> Affordable package</li>
                     </ul>
-                    <a href="{{route('digital-marketing')}}" class="btn btn-custom text-uppercase transition custom-radius">View
+                    <a href="{{ route('digital-marketing') }}"
+                        class="btn btn-custom text-uppercase transition custom-radius">View
                         Details</a>
                 </div>
             </div>
@@ -229,7 +236,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-push-6 col-md-5 col-md-push-5 col-md-offset-1">
-                    <img class="img-responsive" src="{{ asset('assets/frontend/images/custom-software-development.jpg') }}"
+                    <img class="img-responsive"
+                        src="{{ asset('assets/frontend/images/custom-software-development.jpg') }}"
                         alt="Custom Software Development">
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5">
@@ -245,7 +253,7 @@
                         <li><i class="ti-bar-chart"></i> Product Development</li>
                         <li><i class="ti-bar-chart"></i> Cost-Effective Customer Software</li>
                     </ul>
-                    <a href="{{route('custom-software-development')}}"
+                    <a href="{{ route('custom-software-development') }}"
                         class="btn btn-custom text-uppercase transition custom-radius">View Details</a>
                 </div>
             </div>
@@ -258,7 +266,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 text-center">
-                    <img class="info-image" src="{{ asset('assets/frontend/images/mobile-app.png') }}" alt="Additional Info">
+                    <img class="info-image" src="{{ asset('assets/frontend/images/mobile-app.png') }}"
+                        alt="Additional Info">
                 </div>
                 <div class="col-sm-6">
                     <div class="section-top">
@@ -273,7 +282,8 @@
                         <li><i class="ti-bar-chart"></i> UI Design and Research</li>
                         <li><i class="ti-bar-chart"></i> Drive Mobile Strategies</li>
                     </ul>
-                    <a href="{{route('mobile-app-development')}}" class="btn btn-custom text-uppercase transition custom-radius">View
+                    <a href="{{ route('mobile-app-development') }}"
+                        class="btn btn-custom text-uppercase transition custom-radius">View
                         Details</a>
                 </div>
             </div>

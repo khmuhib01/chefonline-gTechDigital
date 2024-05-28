@@ -1,7 +1,8 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Contact Us | GTech Solution')
-@section('description', 'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
+@section('description',
+    'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
     0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
 
 @section('content')
@@ -50,8 +51,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-responsive center-block" src="{{ asset('assets/frontend/images/web-general-responsive1.png') }}"
-                            alt="...">
+                        <img class="img-responsive center-block"
+                            src="{{ asset('assets/frontend/images/web-general-responsive1.png') }}" alt="...">
                     </div>
                     <div class="col-md-6">
                         <div class="panel-group" id="accordion">
@@ -166,7 +167,7 @@
                     </div>
 
                     <div class="col-md-12 text-center">
-                        <a href="service-restaurant-seo"
+                        <a href="{{ route('service-restaurant-seo') }}"
                             class="btn btn-custom text-uppercase transition custom-radius animated fadeInUp">See Details</a>
                     </div>
                 </div>
@@ -192,36 +193,42 @@
                     <div class="col-sm-4 service-item">
                         <div class="item-wrap">
                             <div class="inner text-center">
-                                <a href="service-seo">
-                                    <img src="{{asset('assets/frontend/images/seo.png')}}" alt="search engine Optimisation">
+                                <a href="{{ route('service-seo') }}">
+                                    <img src="{{ asset('assets/frontend/images/seo.png') }}"
+                                        alt="search engine Optimisation">
                                     <h5 class="service-title text-uppercase">Search Engine Optimisation</h5>
                                 </a>
                             </div>
-                            <a href="service-seo" class="service-link text-uppercase text-center">See Details</a>
+                            <a href="{{ route('service-seo') }}" class="service-link text-uppercase text-center">See
+                                Details</a>
                         </div>
                     </div>
 
                     <div class="col-sm-4 service-item">
                         <div class="item-wrap">
                             <div class="inner text-center">
-                                <a href="service-social-media">
-                                    <img src="{{asset('assets/frontend/images/social-media-marketing.png')}}" alt="social media marketing">
+                                <a href="{{ route('service-social-media') }}">
+                                    <img src="{{ asset('assets/frontend/images/social-media-marketing.png') }}"
+                                        alt="social media marketing">
                                     <h5 class="service-title text-uppercase">Social Media Marketing</h5>
                                 </a>
                             </div>
-                            <a href="service-social-media" class="service-link text-uppercase text-center">See Details</a>
+                            <a href="{{ route('service-social-media') }}"
+                                class="service-link text-uppercase text-center">See Details</a>
                         </div>
                     </div>
 
                     <div class="col-sm-4 service-item">
                         <div class="item-wrap">
                             <div class="inner text-center">
-                                <a href="./service-facebook-advertisement">
-                                    <img src="{{asset('assets/frontend/images/pay-per-click.png')}}" alt="Facebook Advertisement">
+                                <a href="{{ route('service-facebook-advertisement') }}">
+                                    <img src="{{ asset('assets/frontend/images/pay-per-click.png') }}"
+                                        alt="Facebook Advertisement">
                                     <h5 class="service-title text-uppercase">Facebook Advertisement</h5>
                                 </a>
                             </div>
-                            <a href="service-facebook-advertisement" class="service-link text-uppercase text-center">See
+                            <a href="{{ route('service-facebook-advertisement') }}"
+                                class="service-link text-uppercase text-center">See
                                 Details</a>
                         </div>
                     </div>
@@ -230,11 +237,13 @@
                         <div class="item-wrap">
                             <div class="inner text-center">
                                 <a href="service-restaurant-seo">
-                                    <img src="{{asset('assets/frontend/images/restaurant-branding-box.png')}}" alt="Web Development">
+                                    <img src="{{ asset('assets/frontend/images/restaurant-branding-box.png') }}"
+                                        alt="Web Development">
                                     <h5 class="service-title text-uppercase">Restaurant SEO</h5>
                                 </a>
                             </div>
-                            <a href="service-restaurant-seo" class="service-link text-uppercase text-center">See
+                            <a href="{{ route('service-restaurant-seo') }}"
+                                class="service-link text-uppercase text-center">See
                                 Details</a>
                         </div>
                     </div>
@@ -242,12 +251,14 @@
                     <div class="col-sm-4 service-item">
                         <div class="item-wrap">
                             <div class="inner text-center">
-                                <a href="service-email-marketing">
-                                    <img src="{{asset('assets/frontend/images/email-marketing.png')}}" alt="Email Marketing">
+                                <a href="{{ route('service-email-marketing') }}">
+                                    <img src="{{ asset('assets/frontend/images/email-marketing.png') }}"
+                                        alt="Email Marketing">
                                     <h5 class="service-title text-uppercase">Email Marketing</h5>
                                 </a>
                             </div>
-                            <a href="service-email-marketing" class="service-link text-uppercase text-center">See
+                            <a href="{{ route('service-email-marketing') }}"
+                                class="service-link text-uppercase text-center">See
                                 Details</a>
                         </div>
                     </div>
@@ -255,12 +266,14 @@
                     <div class="col-sm-4 service-item">
                         <div class="item-wrap">
                             <div class="inner text-center">
-                                <a href="service-content-management">
-                                    <img src="{{asset('assets/frontend/images/reputation-management.png')}}" alt="Reputation Management">
+                                <a href="{{ route('service-content-management') }}">
+                                    <img src="{{ asset('assets/frontend/images/reputation-management.png') }}"
+                                        alt="Reputation Management">
                                     <h5 class="service-title text-uppercase">Content Management</h5>
                                 </a>
                             </div>
-                            <a href="service-content-management" class="service-link text-uppercase text-center">See
+                            <a href="{{ route('service-content-management') }}"
+                                class="service-link text-uppercase text-center">See
                                 Details</a>
                         </div>
                     </div>
@@ -275,7 +288,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-push-6  text-center">
-                        <img class="info-image" src="{{asset('assets/frontend/images/benefits-of-restaurant-seo.png')}}" alt="Additional Info">
+                        <img class="info-image"
+                            src="{{ asset('assets/frontend/images/benefits-of-restaurant-seo.png') }}"
+                            alt="Additional Info">
                     </div>
                     <div class="col-sm-6 col-sm-pull-6">
                         <div class="section-top">
@@ -290,7 +305,8 @@
                             <li><i class="ti-check-box"></i> Fill more tables and get more orders</li>
                             <li><i class="ti-check-box"></i> Take control of your business </li>
                         </ul>
-                        <a href="contact" class="btn btn-custom text-uppercase transition custom-radius">Get A Quote</a>
+                        <a href="{{ route('contact') }}"
+                            class="btn btn-custom text-uppercase transition custom-radius">Get A Quote</a>
                     </div>
                 </div>
             </div>
@@ -310,7 +326,7 @@
                             of ranking our clients for their keywords, having taken into account all the Panda and Penguin
                             updates.
                         </p>
-                        <a href="packages-and-pricing"
+                        <a href="{{ route('packages-and-pricing') }}"
                             class="btn btn-custom text-uppercase transition animated fadeInUp">Get Started</a>
                     </div>
                 </div>
