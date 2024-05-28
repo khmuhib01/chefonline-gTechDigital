@@ -26,11 +26,11 @@
                         <div class="special-links">
                             <ul>
                                 <!--  <li><a class="active" href="about-us">About us</a></li> -->
-                                <li><a href="web-development">Web Development</a></li>
-                                <li><a href="mobile-app-development">Mobile App Development</a></li>
-                                <li><a href="custom-software-development">Custom Software Development</a></li>
-                                <li><a href="seo-services">SEO Services</a></li>
-                                <li><a href="graphic-design">Graphic Design</a></li>
+                                <li><a href="{{ route('web-development')}}">Web Development</a></li>
+                                <li><a href="{{ route('mobile-app-development')}}">Mobile App Development</a></li>
+                                <li><a href="{{ route('custom-software-development')}}">Custom Software Development</a></li>
+                                <li><a href="{{ route('graphic-design')}}">Graphic Design</a></li>
+                                <li><a href="{{ route('digital-marketing')}}">Digital Marketing</a></li>
                             </ul>
                         </div>
                     </div>
