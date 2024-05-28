@@ -61,10 +61,10 @@
                                 <li> <a href="javascript:avoid(0);">Services</a> <i
                                         class="ion-ios-plus-empty visible-xs"></i>
                                     <ul class="sub-nav">
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">Digital Marketing</a></li>
-                                        <li><a href="#">Mobile App Development</a></li>
-                                        <li><a href="#">Custom Software Development</a>
+                                        <li><a href="{{ route('web-development')}}">Web Development</a></li>
+                                        <li><a href="{{ route('digital-marketing')}}">Digital Marketing</a></li>
+                                        <li><a href="{{ route('mobile-app-development')}}">Mobile App Development</a></li>
+                                        <li><a href="{{ route('custom-software-development')}}">Custom Software Development</a>
                                         </li>
                                         <!-- <li><a href="graphic-design">Graphic Design</a></li> -->
                                     </ul>

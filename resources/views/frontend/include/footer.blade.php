@@ -9,16 +9,15 @@
                 <p>Follow us on</p>
 
                 <div class="icons-hover-black">
-                    <a target="_blank" href="https://www.facebook.com/GTechSolutionUK/"> <i class="fa fa-facebook"></i>
+                    <a target="_blank" href="#"> <i class="fa fa-facebook"></i>
                     </a>
-                    <a target="_blank" href="https://twitter.com/GTechSolutionUK"> <i class="fa fa-twitter"></i> </a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCXwGxC3Ja763Bv3BcswZjuA"> <i
+                    <a target="_blank" href="#"> <i class="fa fa-twitter"></i> </a>
+                    <a target="_blank" href="#"> <i
                             class="fa fa-youtube"></i> </a>
-                    <a target="_blank" href="https://www.pinterest.com/GTechSolution/"> <i class="fa fa-pinterest"
+                    <a target="_blank" href="#"> <i class="fa fa-pinterest"
                             aria-hidden="true"></i>
                     </a>
-
-                    <a target="_blank" href="https://www.linkedin.com/company/gtech-solution"> <i
+                    <a target="_blank" href="#"> <i
                             class="fa fa-linkedin"></i> </a>
                 </div>
             </div>
@@ -48,16 +47,16 @@
                     <div class="col-md-6">
                         <ul class="link blog-link">
                             <li>
-                                <a href="web-development">Web Development</a>
+                                <a href="{{ route('web-development')}}">Web Development</a>
                             </li>
                             <li>
-                                <a href="digital-marketing">Digital Marketing</a>
+                                <a href="{{ route('digital-marketing')}}">Digital Marketing</a>
                             </li>
                             <li>
-                                <a href="mobile-app-development">App Development</a>
+                                <a href="{{ route('mobile-app-development')}}">App Development</a>
                             </li>
                             <li>
-                                <a href="custom-software-development">Custom Software Development</a>
+                                <a href="{{ route('custom-software-development')}}">Custom Software Development</a>
                             </li>
                             <!-- <li>
                               <a href="graphic-design">Graphic Design</a>
@@ -67,16 +66,16 @@
                     <div class="col-md-6">
                         <ul class="link blog-link">
                             <li>
-                                <a href="about-us">About Us</a>
+                                <a href="{{ route('about-us')}}">About Us</a>
                             </li>
                             <li>
-                                <a href="contact">contact us</a>
+                                <a href="{{ route('contact')}}">contact us</a>
                             </li>
                             <li>
-                                <a href="cookie-policy">How do we use cookies?</a>
+                                <a href="{{ route('cookie-policy')}}">How do we use cookies?</a>
                             </li>
                             <li>
-                                <a href="privacy-policy">Privacy Policy</a>
+                                <a href="{{ route('privacy-policy')}}">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -90,7 +89,7 @@
     <div class="copyright">
         <div class="container">
             <p class="">
-                © <?php echo date('Y'); ?> <a><b>Global Tech Solution</b></a>. All Rights Reserved.
+                © <?php echo date('Y'); ?> <a href="{{ route('home')}}"><b>Global Tech Digital</b></a>. All Rights Reserved.
             </p>
         </div>
     </div>
