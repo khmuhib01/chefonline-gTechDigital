@@ -35,7 +35,7 @@
                                     We deliver user friendly, well-designed and responsive web-applications and website. All
                                     the websites and web applications we develop are secured and platform independent.
                                 </p>
-                                <a class="btn-text" href="web-development"> read more</a>
+                                <a class="btn-text" href="{{ route('web-development') }}"> read more</a>
                             </div>
                         </div>
                     </li>
@@ -63,7 +63,7 @@
                                     Get your website optimised, increase online orders and build online image with SEO, SMM
                                     and online marketing.
                                 </p>
-                                <a class="btn-text" href="service-restaurant-seo"> read more</a>
+                                <a class="btn-text" href="{{ route('service-restaurant-seo') }}"> read more</a>
                             </div>
                         </div>
                     </li>
@@ -105,7 +105,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>Web Development</h3>
-                        <a href="web-development" class="tw-readmore">Read More
+                        <a href="{{route('web-development')}}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -122,7 +122,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>Digital Marketing</h3>
-                        <a href="digital-marketing" class="tw-readmore">Read More
+                        <a href="{{route('digital-marketing')}}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -139,7 +139,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>App Development</h3>
-                        <a href="mobile-app-development" class="tw-readmore">Read More
+                        <a href="{{route('mobile-app-development')}}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -155,7 +155,7 @@
                         </div>
                         <!-- End Features Icon -->
                         <h3>Software Development</h3>
-                        <a href="custom-software-development" class="tw-readmore">Read More
+                        <a href="{{route('custom-software-development')}}" class="tw-readmore">Read More
                             <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -190,7 +190,7 @@
                         <li><i class="ti-headphone-alt"></i> Customer experience enhancing web designs</li>
                         <li><i class="fa fa-money"></i> Ident creation that leaves a lasting impression </li>
                     </ul>
-                    <a href="web-development" class="btn btn-custom text-uppercase transition custom-radius">View
+                    <a href="{{route('web-development')}}" class="btn btn-custom text-uppercase transition custom-radius">View
                         Details</a>
                 </div>
             </div>
@@ -218,7 +218,7 @@
                         <li><i class="ti-bar-chart"></i> Social Media Presence and Engagement</li>
                         <li><i class="ti-bar-chart"></i> Affordable package</li>
                     </ul>
-                    <a href="digital-marketing" class="btn btn-custom text-uppercase transition custom-radius">View
+                    <a href="{{route('digital-marketing')}}" class="btn btn-custom text-uppercase transition custom-radius">View
                         Details</a>
                 </div>
             </div>
@@ -245,7 +245,7 @@
                         <li><i class="ti-bar-chart"></i> Product Development</li>
                         <li><i class="ti-bar-chart"></i> Cost-Effective Customer Software</li>
                     </ul>
-                    <a href="custom-software-development"
+                    <a href="{{route('custom-software-development')}}"
                         class="btn btn-custom text-uppercase transition custom-radius">View Details</a>
                 </div>
             </div>
@@ -273,7 +273,7 @@
                         <li><i class="ti-bar-chart"></i> UI Design and Research</li>
                         <li><i class="ti-bar-chart"></i> Drive Mobile Strategies</li>
                     </ul>
-                    <a href="mobile-app-development" class="btn btn-custom text-uppercase transition custom-radius">View
+                    <a href="{{route('mobile-app-development')}}" class="btn btn-custom text-uppercase transition custom-radius">View
                         Details</a>
                 </div>
             </div>
