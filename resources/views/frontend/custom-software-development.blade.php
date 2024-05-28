@@ -1,7 +1,8 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Contact Us | GTech Solution')
-@section('description', 'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
+@section('description',
+    'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
     0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
 
 @section('content')
@@ -26,13 +27,13 @@
                     <div class="single-sidebar-widget">
                         <div class="special-links">
                             <ul>
-                                <!-- <li><a href="about-us">About us</a></li> -->
-                                <li><a href="{{ route('web-development')}}">Web Development</a></li>
-                                <li><a href="{{ route('mobile-app-development')}}">Mobile App Development</a></li>
-                                <li><a class="active" href="{{ route('custom-software-development')}}">Custom Software Development</a>
+                                <li><a href="{{ route('web-development') }}">Web Development</a></li>
+                                <li><a href="{{ route('mobile-app-development') }}">Mobile App Development</a></li>
+                                <li><a class="active" href="{{ route('custom-software-development') }}">Custom Software
+                                        Development</a>
                                 </li>
-                                <li><a href="{{ route('graphic-design')}}">Graphic Design</a></li>
-                                <li><a href="{{ route('digital-marketing')}}">Digital Marketing</a></li>
+                                <li><a href="{{ route('graphic-design') }}">Graphic Design</a></li>
+                                <li><a href="{{ route('digital-marketing') }}">Digital Marketing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -41,7 +42,7 @@
                             <h2>Send us an email!</h2>
                         </div>
                         <ul class="brochure-btns">
-                            <li><a href="{{ route('contact')}}" class="clearfix"><i class="fa fa-paper-plane-o"></i>
+                            <li><a href="{{ route('contact') }}" class="clearfix"><i class="fa fa-paper-plane-o"></i>
                                     <span>Get a quote</span> </a></li>
                         </ul>
                     </div>
@@ -116,7 +117,8 @@
                             </div>
                             <p>We master all levels of software complexity and provide quality solutions using the following
                                 technologies:</p>
-                            <img src="{{ asset('assets/frontend/images/web-development-page.jpg') }}" class="img-responsive" alt="web development">
+                            <img src="{{ asset('assets/frontend/images/web-development-page.jpg') }}" class="img-responsive"
+                                alt="web development">
                             <br>
                             <ul class="our-point left-border">
                                 <li><strong>Back end and desktop:</strong> Java, PHP, python, Node.js, .NET</li>

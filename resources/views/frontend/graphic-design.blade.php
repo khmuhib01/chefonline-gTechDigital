@@ -27,11 +27,12 @@
                         <div class="special-links">
                             <ul>
                                 <!-- <li><a href="about-us">About us</a></li> -->
-                                <li><a href="web-development">Web Development</a></li>
-                                <li><a href="mobile-app-development">Mobile App Development</a></li>
-                                <li><a href="custom-software-development">Custom Software Development</a></li>
-                                <li><a class="active" href="graphic-design">Graphic Design</a></li>
-                                <li><a href="digital-marketing">Digital Marketing</a></li>
+                                <li><a href="{{ route('web-development') }}">Web Development</a></li>
+                                <li><a href="{{ route('mobile-app-development') }}">Mobile App Development</a></li>
+                                <li><a href="{{ route('custom-software-development') }}">Custom Software Development</a>
+                                </li>
+                                <li><a class="active" href="{{ route('graphic-design') }}">Graphic Design</a></li>
+                                <li><a href="{{ route('digital-marketing') }}">Digital Marketing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,9 +49,6 @@
                 <div class="col-md-9">
                     <div class="text-box mt-xs-30">
                         <div class="text-content mb-45">
-                            <!-- <div class="box-title mb-20">
-                    <h4>Creating a Strong Corporate Identity</h4>
-                  </div> -->
                             <div class="text-content mb-45">
                                 <p>Don’t you want people remember you by colors and patterns whenever they hear the name of
                                     your business? Don’t you think it will be really great when people will compare colors
@@ -87,122 +85,6 @@
                                     concept of your business as it rightfully deserve!</p>
                             </div>
                         </div>
-                        <!--             <div class="row">
-                  <div class="col-md-12">
-                    <div class="box-title mb-20">
-                      <h4>Business Card</h4>
-                    </div>
-                  </div>
-                                    
-                      <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-business-card text-center">
-                         <div class="single-event" data-appear-animation="bounceInLeft">
-                            <a class="fancybox-media" href="assets/images/business-card/bayleaf-fullview.png" class="portfolio-link" target="_blank">
-                               <img src="assets/images/business-card/bayleaf-thamb.png" class="img-responsive" alt="Business Card Bayleaf Restaurant">
-                               <div class="hov">
-                                  <span class=""><i class="fa fa-external-link"></i></span>
-                               </div>
-                            </a>
-                         </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-business-card text-center">
-                         <div class="single-event" data-appear-animation="bounceInLeft">
-                            <a class="fancybox-media" href="assets/images/business-card/Desi-Biz-full.jpg" class="portfolio-link" target="_blank">
-                               <img src="assets/images/business-card/desi_thamb.png" class="img-responsive" alt="Business Card Desi Restaurant">
-                               <div class="hov">
-                                  <span class=""><i class="fa fa-external-link"></i></span>
-                               </div>
-                            </a>
-                         </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-business-card text-center">
-                         <div class="single-event" data-appear-animation="bounceInLeft">
-                            <a class="fancybox-media" href="assets/images/business-card/Desi2-Biz-full.jpg" class="portfolio-link" target="_blank">
-                               <img src="assets/images/business-card/desi2_thamb.png" class="img-responsive" alt="Business Card Desi Restaurant">
-                               <div class="hov">
-                                  <span class=""><i class="fa fa-external-link"></i></span>
-                               </div>
-                            </a>
-                         </div>
-                      </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                  <div class="box-title mb-20">
-                    <h4>Takeaway Menu</h4>
-                  </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-takeaway-menu text-center">
-                     <div class="single-event" data-appear-animation="bounceInLeft">
-                        <a class="fancybox-media" href="assets/images/takeaway-menu/Belesh_fullview.jpg" class="portfolio-link" target="_blank">
-                           <img src="assets/images/takeaway-menu/Belesh_thamb.png" class="img-responsive" alt="Takeaway Menu Belash Indian">
-                           <div class="hov">
-                              <span class=""><i class="fa fa-external-link"></i></span>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-takeaway-menu text-center">
-                     <div class="single-event" data-appear-animation="bounceInLeft">
-                        <a class="fancybox-media" href="assets/images/takeaway-menu/Desi_fullview.jpg" class="portfolio-link" target="_blank">
-                           <img src="assets/images/takeaway-menu/Desi_thamb.png" class="img-responsive" alt="Takeaway Menu Desi Restaurant">
-                           <div class="hov">
-                              <span class=""><i class="fa fa-external-link"></i></span>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-takeaway-menu text-center">
-                     <div class="single-event" data-appear-animation="bounceInLeft">
-                        <a class="fancybox-media" href="assets/images/takeaway-menu/littleindia_fullview.jpg" class="portfolio-link" target="_blank">
-                           <img src="assets/images/takeaway-menu/littleindia_thamb.png" class="img-responsive" alt="Takeaway Menu Little India">
-                           <div class="hov">
-                              <span class=""><i class="fa fa-external-link"></i></span>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="box-title mb-20">
-                      <h4>A La Carte Menu</h4>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-a-la-carte-menu text-center">
-                     <div class="single-event" data-appear-animation="bounceInLeft">
-                        <a class="fancybox-media" href="assets/images/AlaMenu/desi_full.jpg" class="portfolio-link" target="_blank">
-                           <img src="assets/images/AlaMenu/Desi_thamb.png" class="img-responsive" alt="A La Carte Menu Desi Restaurant">
-                           <div class="hov">
-                              <span class=""><i class="fa fa-external-link"></i></span>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-a-la-carte-menu text-center">
-                     <div class="single-event" data-appear-animation="bounceInLeft">
-                        <a class="fancybox-media" href="assets/images/AlaMenu/Meghna_fullView.jpg" class="portfolio-link" target="_blank">
-                           <img src="assets/images/AlaMenu/Meghna_thamb.png" class="img-responsive" alt="A La Carte Meghna Restaurant">
-                           <div class="hov">
-                              <span class=""><i class="fa fa-external-link"></i></span>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 marginbottom30 iso-box graphic-a-la-carte-menu text-center">
-                     <div class="single-event" data-appear-animation="bounceInLeft">
-                        <a class="fancybox-media" href="assets/images/AlaMenu/Nawaabs-restauran_full.jpg" class="portfolio-link" target="_blank">
-                           <img src="assets/images/AlaMenu/nwaab_thamb.png" class="img-responsive" alt="A La Carte Nwaab Restaurant">
-                           <div class="hov">
-                              <span class=""><i class="fa fa-external-link"></i></span>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-
-                    <div class="col-sm-12 mb-45 text-center">
-                      <a href="portfolio" class="btn-text"> View Our Portfolio </a>
-                    </div>
-                </div> -->
                     </div>
                 </div>
             </div>

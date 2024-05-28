@@ -1,7 +1,8 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Contact Us | GTech Solution')
-@section('description', 'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
+@section('description',
+    'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
     0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
 
 @section('content')
@@ -27,11 +28,12 @@
                         <div class="special-links">
                             <ul>
                                 <!-- <li><a href="about-us">About us</a></li> -->
-                                <li><a class="active" href="{{ route('web-development')}}">Web Development</a></li>
-                                <li><a href="{{ route('mobile-app-development')}}">Mobile App Development</a></li>
-                                <li><a href="{{ route('custom-software-development')}}">Custom Software Development</a></li>
-                                <li><a href="{{ route('graphic-design')}}">Graphic Design</a></li>
-                                <li><a href="{{ route('digital-marketing')}}">Digital Marketing</a></li>
+                                <li><a class="active" href="{{ route('web-development') }}">Web Development</a></li>
+                                <li><a href="{{ route('mobile-app-development') }}">Mobile App Development</a></li>
+                                <li><a href="{{ route('custom-software-development') }}">Custom Software Development</a>
+                                </li>
+                                <li><a href="{{ route('graphic-design') }}">Graphic Design</a></li>
+                                <li><a href="{{ route('digital-marketing') }}">Digital Marketing</a></li>
                                 <!-- <li><a href="graphic-design">Graphic Design</a></li> -->
                             </ul>
                         </div>
@@ -41,7 +43,7 @@
                             <h2>Send us an email!</h2>
                         </div>
                         <ul class="brochure-btns">
-                            <li><a href="{{ route('contact')}}" class="clearfix"><i class="fa fa-paper-plane-o"></i>
+                            <li><a href="{{ route('contact') }}" class="clearfix"><i class="fa fa-paper-plane-o"></i>
                                     <span>Get a quote</span> </a></li>
                         </ul>
                     </div>

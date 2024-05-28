@@ -1,7 +1,9 @@
 @extends('frontend.include.layout')
 
 @section('title', 'SEO Pricing | Digital Campaign for Local Business | GTech')
-@section('description', 'Get desired results for your website’s online visibility. No matter a website is new or old, our packages are tailored to leverage in SERP ranking.')
+@section('description',
+    'Get desired results for your website’s online visibility. No matter a website is new or old,
+    our packages are tailored to leverage in SERP ranking.')
 
 @section('content')
 
@@ -39,54 +41,6 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 table-responsive price-details-list">
-                        <!--
-                    <h2 class="section-title text-center">Package Benefits</h2>
-                    <table class="table table-hover" border="1" cellspacing="0" cellpadding="0" width="863">
-                        <thead>
-                        <tr>
-                            <th width="378">
-                            <strong>SEO    Package</strong></th>
-                            <th width="84"><p><strong>No.</strong></p></th>
-                            <th width="402"><p><strong>SMM    Package</strong></p></th>
-                        </tr>
-                        </thead>
-                        <tr>
-                            <td width="378"><p>Improve SERP    ranking &amp; get organic traffic<strong></strong></p></td>
-                            <td width="84"><p>1.</p></td>
-                            <td width="402"><p>Get instant    targeted traffic<strong></strong></p></td>
-                        </tr>
-                        <tr>
-                            <td width="378"><p>Once get ranked    in Google you will get regular organic traffic<strong></strong></p></td>
-                            <td width="84"><p>2.</p></td>
-                            <td width="402"><p>Get traffic    only while running the Ad Campaign<strong></strong></p></td>
-                        </tr>
-                        <tr>
-                            <td width="378"><p>Takes time and    lots of effort to rank top in Google search<strong></strong></p></td>
-                            <td width="84"><p>3.</p></td>
-                            <td width="402"><p>You can place    in top of Google search by doing Google AdWords<strong></strong></p></td>
-                        </tr>
-                        <tr>
-                            <td width="378"><p>Long Term    Solution<strong></strong></p></td>
-                            <td width="84"><p>4.</p></td>
-                            <td width="402"><p>Instant    Solution<strong></strong></p></td>
-                        </tr>
-                        <tr>
-                            <td width="378"><p>Increase    website traffic gradually<strong></strong></p></td>
-                            <td width="84"><p>5.</p></td>
-                            <td width="402"><p>Increase social    media traffic gradually<strong></strong></p></td>
-                        </tr>
-                        <tr>
-                            <td width="378"><p>Brand Promotion<strong></strong></p></td>
-                            <td width="84"><p>6.</p></td>
-                            <td width="402"><p>Social Media    Promotion<strong></strong></p></td>
-                        </tr>
-                        <tr>
-                            <td width="378"><p>Organic traffic    from Google<strong></strong></p></td>
-                            <td width="84"><p>7.</p></td>
-                            <td width="402"><p>Direct    Engagement with your Customer<strong></strong></p></td>
-                        </tr>
-                        </table>
-    -->
 
                         <table class="table table-hover" border="1" cellspacing="0" cellpadding="0" width="100%">
                             <thead>
@@ -646,36 +600,6 @@
                             <h2 class="page-title text-center">Additional Packages</h2>
                             <br>
                         </div>
-                        <!-- <table class="table table-hover">
-                            <thead>
-                            <tr>
-                                <th class="active text-center" colspan="2">SMM PACKAGE FOR £30</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <th>Facebook Post</th>
-                                <td>2 Per Month</td>
-                            </tr>
-                            <tr>
-                                <th>Link Share on Facebook Timeline</th>
-                                <td>2 Per Month</td>
-                            </tr>
-                            <tr>
-                                <th>Twitter-Post</th>
-                                <td>2 Per Month</td>
-                            </tr>
-                            <tr>
-                                <th>Google Business page Post</th>
-                                <td>2 Per Month</td>
-                            </tr>
-                            
-                            <tr>
-                                <th>Pinterest</th>
-                                <td>2 Per Month</td>
-                            </tr>
-                            </tbody>
-                        </table> -->
                         <table class="table table-hover">
                             <thead>
                                 <tr>
