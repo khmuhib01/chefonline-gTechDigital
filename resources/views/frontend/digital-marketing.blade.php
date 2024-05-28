@@ -1,9 +1,9 @@
 @extends('frontend.include.layout')
 
-@section('title', 'Contact Us | GTech Solution')
+@section('title', 'Contact Us | GTech Digital')
 @section('description',
     'Contact GTech for your upcoming project via phone, email or filling up the contact form. Phone-
-    0203 598 5956, 0330 380 1000, Email - info@gtechsolution.co.uk')
+    0203 598 5956, 0330 380 1000, Email - info@gtechdigital.co.uk')
 
 @section('content')
 
@@ -326,7 +326,7 @@
                             of ranking our clients for their keywords, having taken into account all the Panda and Penguin
                             updates.
                         </p>
-                        <a href="{{ route('packages-and-pricing') }}"
+                        <a href="{{ route('packages') }}"
                             class="btn btn-custom text-uppercase transition animated fadeInUp">Get Started</a>
                     </div>
                 </div>

@@ -19,6 +19,7 @@ use App\Http\Controllers\Frontend\ServiceSeo;
 use App\Http\Controllers\Frontend\ServiceSocialMedia;
 use App\Http\Controllers\Frontend\WebDesign;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,3 +56,15 @@ Route::get('/service-mobile', [ServiceMobile::class, 'index'])->name('service-mo
 Route::get('/about-us', [AboutUs::class, 'index'])->name('about-us');
 Route::get('/privacy-policy', [PrivacyPolicy::class, 'index'])->name('privacy-policy');
 Route::get('/cookie-policy', [CookiePolicy::class, 'index'])->name('cookie-policy');
+
+Route::get('send-mail', function () {
+
+    $details = [
+        'title' => 'Mail from ItSolutionStuff.com',
+        'body' => 'This is for testing email using smtp'
+    ];
+
+    \Mail::to('mohibbullah.chefonline@gmail.com')->send(new \App\Mail\MyTestMail($details));
+
+    dd("Email is Sent.");
+});
