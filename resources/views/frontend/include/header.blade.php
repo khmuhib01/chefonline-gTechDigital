@@ -33,9 +33,8 @@
                 <li><a href="{{ route('about-us') }}">About Us</a></li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 {{-- <button class="btn btn-primary hidden-sm hidden-md hidden-lg">Book Intro Call</button> --}}
-                <a href="http://127.0.0.1:8000/custom-software-development"
-                    class="btn btn-custom text-uppercase transition custom-radius hidden-sm hidden-md hidden-lg">View
-                    Details</a>
+                <a href="{{ route('meet') }}"
+                    class="btn btn-custom text-uppercase transition custom-radius hidden-sm hidden-md hidden-lg">BOOK INTRO CALL</a>
 
             </ul>
         </div>
