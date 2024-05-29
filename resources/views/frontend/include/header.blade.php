@@ -1,82 +1,96 @@
-<div class="wrapper">
-    <div id="header" class="header header-2">
-        {{-- <div id="top-bar" class="top-bar-section top-bar-bg-color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="top-contact link-hover-black hidden-xs"> <span class="welcome-text"><i
-                                    class="ion-ios-location fa-icons color v-align"></i> 218A Brick Lane, London E1
-                                6SA </span> </div>
-                        <div class="top-social-icon icons-hover-black">
-                            <div class="icons-hover-black">
-                                <a target="_blank" href="https://www.facebook.com/GTechSolutionUK/"> <i
-                                        class="fa fa-facebook"></i> </a>
-                                <a target="_blank" href="https://twitter.com/GTechSolutionUK"> <i
-                                        class="fa fa-twitter"></i> </a>
-                                <a target="_blank" href="https://www.youtube.com/channel/UCXwGxC3Ja763Bv3BcswZjuA">
-                                    <i class="fa fa-youtube"></i> </a>
-                                <a target="_blank" href="https://www.pinterest.com/GTechSolution/"> <i
-                                        class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a target="_blank" href="https://www.linkedin.com/company/gtech-solution"> <i
-                                        class="fa fa-linkedin"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <div class="container secondary-header">
-            <div class="row">
-                <div class="col-sm-3 col-md-5">
-                    <div class="logo">
-                        <a href="{{ route('home')}}"><img src="{{ asset('assets/frontend/images/logo.png') }}"
-                                alt="Global Tech Solution Logo"></a>
-                    </div>
-                    <button id="menu" class="menu visible-xs"></button>
-                </div>
-                <div class="col-sm-9 col-md-7 hidden-xs">
-                    <div class="call-us">
-                        <ul>
-                            <li>
-                                <i class="ion-ios-email-outline"></i> <a
-                                    href="mailto:support@example.com">support@example.com</a>
-                            </li>
-                            <li>
-                                <i class="ion-iphone"></i>
-                                <a href="tel:03303801000">0330 380 1000</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="primary-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <nav class="navigation">
-                            <ul>
-                                <li> <a href="{{ route('home') }}">Home</a>
-                                </li>
-                                <li> <a href="javascript:avoid(0);">Services</a> <i
-                                        class="ion-ios-plus-empty visible-xs"></i>
-                                    <ul class="sub-nav">
-                                        <li><a href="{{ route('web-development')}}">Web Development</a></li>
-                                        <li><a href="{{ route('digital-marketing')}}">Digital Marketing</a></li>
-                                        <li><a href="{{ route('mobile-app-development')}}">Mobile App Development</a></li>
-                                        <li><a href="{{ route('custom-software-development')}}">Custom Software Development</a>
-                                        </li>
-                                        <!-- <li><a href="graphic-design">Graphic Design</a></li> -->
-                                    </ul>
-                                </li>
-                                <li> <a href="{{ route('packages')}}">SEO Packages</a> </li>
-                                <li><a href="{{ route('portfolio')}}">Portfolio</a></li>
-                                <li> <a href="{{ route('contact')}}">contact us</a> </li>
-                            </ul>
-                        </nav>
-                    </div>
+<nav>
+    <div class="navbar">
+        <i class='bx bx-menu'></i>
 
-                </div>
+        <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}"
+                    alt="logo"></a>
+        </div>
+        <div class="nav-links">
+            <div class="sidebar-logo">
+                <span class="logo-name"><img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo"></span>
+                <i class='bx bx-x'></i>
+            </div>
+            <ul class="links">
+                <li><a href="{{ route('home') }}">HOME</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                        <li><a href="{{ route('web-development') }}">Web Development</a>
+                        </li>
+                        <li><a href="{{ route('digital-marketing') }}">Digital Marketing</a>
+                        </li>
+                        <li><a href="{{ route('mobile-app-development') }}">Mobile App
+                                Development</a></li>
+                        <li><a href="{{ route('custom-software-development') }}">Custom
+                                Software Development</a>
+                        </li>
+                        <li><a href="{{ route('graphic-design') }}">Graphic Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ route('about-us') }}">ABOUT US</a></li>
+                <li><a href="{{ route('contact') }}">CONTACT US</a></li>
+                {{-- <button class="btn btn-primary hidden-sm hidden-md hidden-lg">Book Intro Call</button> --}}
+                <a href="http://127.0.0.1:8000/custom-software-development"
+                    class="btn btn-custom text-uppercase transition custom-radius hidden-sm hidden-md hidden-lg">View
+                    Details</a>
+
+            </ul>
+        </div>
+        <div class="search-box">
+            <a href="http://127.0.0.1:8000/custom-software-development"
+                class="btn btn-custom text-uppercase transition custom-radius hidden-sm hidden-xs">Book Intro Call</a>
+
+            <i class='bx bx-search' style="display: none"></i>
+            <div class="input-box" style="display: none">
+                <button>Book Intro Call</button>
+                <input type="text" placeholder="Search...">
             </div>
         </div>
     </div>
+</nav>
+
+
+
+
+<script>
+    // search-box open close js code
+    let navbar = document.querySelector(".navbar");
+    let searchBox = document.querySelector(".search-box .bx-search");
+    // let searchBoxCancel = document.querySelector(".search-box .bx-x");
+
+    searchBox.addEventListener("click", () => {
+        navbar.classList.toggle("showInput");
+        if (navbar.classList.contains("showInput")) {
+            searchBox.classList.replace("bx-search", "bx-x");
+        } else {
+            searchBox.classList.replace("bx-x", "bx-search");
+        }
+    });
+
+    // sidebar open close js code
+    let navLinks = document.querySelector(".nav-links");
+    let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+    let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+    menuOpenBtn.onclick = function() {
+        navLinks.style.left = "0";
+    }
+    menuCloseBtn.onclick = function() {
+        navLinks.style.left = "-100%";
+    }
+
+
+    // sidebar submenu open close js code
+    let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+    htmlcssArrow.onclick = function() {
+        navLinks.classList.toggle("show1");
+    }
+    let moreArrow = document.querySelector(".more-arrow");
+    moreArrow.onclick = function() {
+        navLinks.classList.toggle("show2");
+    }
+    let jsArrow = document.querySelector(".js-arrow");
+    jsArrow.onclick = function() {
+        navLinks.classList.toggle("show3");
+    }
+</script>

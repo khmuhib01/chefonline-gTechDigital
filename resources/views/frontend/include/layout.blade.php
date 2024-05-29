@@ -35,7 +35,10 @@
     <link href="{{ asset('assets/frontend/css/themify-icons.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('assets/frontend/css/style.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('assets/frontend/css/seo.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('assets/frontend/css/theme-color/default.css') }}" rel="stylesheet" id="theme-color" type="text/css">
+    <link href="{{ asset('assets/frontend/css/theme-color/default.css') }}" rel="stylesheet" id="theme-color"
+        type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="{{ asset('assets/frontend/css/custom.css') }}" rel="stylesheet" type="text/css">
 
     @yield('css')
 </head>
@@ -76,6 +79,8 @@
 
     <script src="{{ asset('assets/frontend/js/toastr.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('assets/frontend/js/mixitup.min.js') }}" type="text/javascript"></script>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!-- custom Js -->
     <script src="{{ asset('assets/frontend/js/custom.js') }}" type="text/javascript"></script>
