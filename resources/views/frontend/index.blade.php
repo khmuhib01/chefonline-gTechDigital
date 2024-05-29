@@ -87,7 +87,7 @@
     <!--  Main Banner End Here-->
     <section id="" class="tw-features-area">
         <div class="container">
-            <div class="row tw-mb-25">
+            {{-- <div class="row tw-mb-25">
                 <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
                     <h1 class="column-title">One Stop Digital Marketing Solutions</h1>
                 </div>
@@ -100,7 +100,7 @@
                         with you in the whole process.
                     </p>
                 </div>
-            </div>
+            </div> --}}
             <!-- End Row 1 -->
             <div class="row">
                 <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
