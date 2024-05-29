@@ -1,4 +1,4 @@
-<nav>
+<nav class="">
     <div class="navbar">
         <i class='bx bx-menu' style="color: red!important; font-size: 40px"></i>
 

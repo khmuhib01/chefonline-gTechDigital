@@ -2080,6 +2080,7 @@ form label.error {
     width: 1100px;
     height: 300%;
     position: absolute;
+    display: none;
     top: 0;
     left: 0;
     background: #1fcab8;

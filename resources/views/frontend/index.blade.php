@@ -1,7 +1,8 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Gtech | SEO, Digital Marketing, Web Design & Development')
-@section('description', 'UK based, GTech Digital Offers Website Design and Development, App Development with expert
+@section('description',
+    'UK based, GTech Digital Offers Website Design and Development, App Development with expert
     Digital Marketing services. Specialises in Restaurant SEO and SMM.')
 
 @section('content')
@@ -10,11 +11,14 @@
     <div class="main-banner">
         <div class="main-banner-mid">
             <h1>One Stop Digital Marketing Solutions</h1>
-            <p>At GTech, we work with businesses across the UK crafting websites that engage customers and Digital Marketing strategies that deliver results.</p>
-            <p>Our expert developer team is keen into designing products that portrays the right business proposition and message for your business. You understand the business best so we always collaborate with you in the whole process. </p>
+            <p>At GTech, we work with businesses across the UK crafting websites that engage customers and Digital Marketing
+                strategies that deliver results.</p>
+            <p>Our expert developer team is keen into designing products that portrays the right business proposition and
+                message for your business. You understand the business best so we always collaborate with you in the whole
+                process. </p>
         </div>
 
-        
+
         {{-- <div id="rev_slider_34_1_wrapper" class="rev_slider_wrapper" data-alias="news-gallery34">
             <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
             <div id="rev_slider_34_1" class="rev_slider" data-version="5.0.7">
@@ -241,8 +245,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-push-6 col-md-5 col-md-push-5 col-md-offset-1">
-                    <img class="img-responsive"
-                        src="{{ asset('assets/frontend/images/custom-software-development.jpg') }}"
+                    <img class="img-responsive" src="{{ asset('assets/frontend/images/custom-software-development.jpg') }}"
                         alt="Custom Software Development">
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5">

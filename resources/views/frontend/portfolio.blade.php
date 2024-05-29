@@ -6,16 +6,16 @@
 @section('content')
 
 
-    <section class="inner-intro project light-color overlay-before parallax-background">
+    <div class="page-banner">
         <div class="container">
-            <div class="row title">
-                <h1 data-title="Project">
-                    <span><small>Our Portfolio</small></span>
-                    <span>Global Tech Solution</span>
-                </h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-title">Portfolio</h1>
+                    <!-- <h2 class="page-title">SEO Pricing for Restaurant & Local Business</h2> -->
+                </div>
             </div>
         </div>
-    </section>
+    </div>
     <div id="services-section" class="pt-80 pt-xs-60">
         <div class="container">
             <div class="row">

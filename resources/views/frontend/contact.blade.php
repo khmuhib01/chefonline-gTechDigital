@@ -8,13 +8,16 @@
 
 
     <!-- Intro Section -->
-    <section class="inner-intro bg-img light-color overlay-before parallax-background">
+    <div class="page-banner">
         <div class="container">
-            <div class="row title">
-                <p class="services-head"><span>Contact Us</span></p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-title">Portfolio</h1>
+                    <!-- <h2 class="page-title">SEO Pricing for Restaurant & Local Business</h2> -->
+                </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Intro Section -->
     <!-- Contact Section -->
     <section class="pt-50">

@@ -355,3 +355,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .navbar .search-box {
     height: 42px!important;
 }
+
+.page-banner {
+    background: #3e8da8!important;
+}
