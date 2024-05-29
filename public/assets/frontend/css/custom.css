@@ -315,6 +315,27 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .main-banner {
     margin-top: 70px;
+    background-color: #3e8da8;
+    padding: 150px 0;
+}
+
+.main-banner-mid {
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-banner-mid h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.main-banner-mid p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .inner-intro {

@@ -1,6 +1,6 @@
 <nav>
     <div class="navbar">
-        <i class='bx bx-menu'></i>
+        <i class='bx bx-menu' style="color: red!important; font-size: 40px"></i>
 
         <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}"
                     alt="logo"></a>
@@ -8,10 +8,10 @@
         <div class="nav-links">
             <div class="sidebar-logo">
                 <span class="logo-name"><img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo"></span>
-                <i class='bx bx-x'></i>
+                <i class='bx bx-x' style="color: red!important;"></i>
             </div>
             <ul class="links">
-                <li><a href="{{ route('home') }}">HOME</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
                 <li>
                     <a href="#">Services</a>
                     <i class='bx bxs-chevron-down htmlcss-arrow arrow '></i>
@@ -28,8 +28,10 @@
                         <li><a href="{{ route('graphic-design') }}">Graphic Design</a></li>
                     </ul>
                 </li>
-                <li><a href="{{ route('about-us') }}">ABOUT US</a></li>
-                <li><a href="{{ route('contact') }}">CONTACT US</a></li>
+                <li> <a href="{{ route('packages') }}">Seo Packages</a> </li>
+                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                <li><a href="{{ route('about-us') }}">About Us</a></li>
+                <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 {{-- <button class="btn btn-primary hidden-sm hidden-md hidden-lg">Book Intro Call</button> --}}
                 <a href="http://127.0.0.1:8000/custom-software-development"
                     class="btn btn-custom text-uppercase transition custom-radius hidden-sm hidden-md hidden-lg">View
