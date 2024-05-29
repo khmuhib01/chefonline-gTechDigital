@@ -57,6 +57,10 @@ nav .navbar .links li a {
     font-size: 14px;
     font-weight: 600;
 }
+
+.navbar .links li:hover a {
+    color: red;
+}
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow {
     transform: rotate(180deg);
@@ -96,6 +100,10 @@ nav .navbar .links li:hover .js-sub-menu {
     font-size: 15px;
     font-weight: 500;
 }
+
+.navbar .links li .sub-menu li:hover a {
+    color: red;
+}
 .navbar .links li .sub-menu .more-arrow {
     line-height: 40px;
 }
@@ -116,7 +124,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .navbar .search-box {
     position: relative;
     height: 40px;
-    width: 40px;
+    /* width: 40px; */
 }
 .navbar .search-box i {
     position: absolute;
@@ -306,5 +314,13 @@ nav .navbar .links li:hover .js-sub-menu {
 
 
 .main-banner {
+    margin-top: 70px;
+}
+
+.inner-intro {
+    margin-top: 70px;
+}
+
+.page-banner {
     margin-top: 70px;
 }
