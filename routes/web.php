@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\CookiePolicy;
 use App\Http\Controllers\Frontend\CustomSoftwareDevelopment;
 use App\Http\Controllers\Frontend\DigitalMarketing;
 use App\Http\Controllers\Frontend\GraphicDesign;
+use App\Http\Controllers\Frontend\Meet;
 use App\Http\Controllers\Frontend\MobileAppDevelopment;
 use App\Http\Controllers\Frontend\Package;
 use App\Http\Controllers\Frontend\Portfolio;
@@ -56,6 +57,7 @@ Route::get('/service-mobile', [ServiceMobile::class, 'index'])->name('service-mo
 Route::get('/about-us', [AboutUs::class, 'index'])->name('about-us');
 Route::get('/privacy-policy', [PrivacyPolicy::class, 'index'])->name('privacy-policy');
 Route::get('/cookie-policy', [CookiePolicy::class, 'index'])->name('cookie-policy');
+Route::get('/meet', [Meet::class, 'index'])->name('meet');
 
 Route::get('send-mail', function () {
 

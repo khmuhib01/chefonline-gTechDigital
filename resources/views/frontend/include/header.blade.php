@@ -40,7 +40,7 @@
             </ul>
         </div>
         <div class="search-box">
-            <a href="http://127.0.0.1:8000/custom-software-development"
+            <a href="{{ route('meet') }}"
                 class="btn btn-custom text-uppercase transition custom-radius hidden-sm hidden-xs">Book Intro Call</a>
 
             <i class='bx bx-search' style="display: none"></i>
