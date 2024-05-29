@@ -351,3 +351,7 @@ nav .navbar .links li:hover .js-sub-menu {
     margin-top: 70px;
     margin-bottom: 35px;
 }
+
+.navbar .search-box {
+    height: 42px!important;
+}

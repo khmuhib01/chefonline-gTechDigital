@@ -566,32 +566,32 @@
                                 <td width="10%">
                                     <p align="center"><a
                                             class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=SEO-SILVER">Get a Quote</a></p>
+                                            href="{{ route('contact') }}">Get a Quote</a></p>
                                 </td>
                                 <td width="11%">
                                     <p align="center"><a
                                             class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=SEO-GOLD">Get a Quote</a></p>
+                                            href="{{ route('contact') }}">Get a Quote</a></p>
                                 </td>
                                 <td width="11%">
                                     <p align="center"><a
                                             class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=SEO-PLATINUM">Get a Quote</a></p>
+                                            href="{{ route('contact') }}">Get a Quote</a></p>
                                 </td>
                                 <td width="10%">
                                     <p align="center"><a
                                             class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=SMM-SILVER">Get a Quote</a></p>
+                                            href="{{ route('contact') }}">Get a Quote</a></p>
                                 </td>
                                 <td width="13%">
                                     <p align="center"><a
                                             class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=SMM-GOLD">Get a Quote</a></p>
+                                            href="{{ route('contact') }}">Get a Quote</a></p>
                                 </td>
                                 <td width="12%">
                                     <p align="center"><a
                                             class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=SMM-PLATINUM">Get a Quote</a></p>
+                                            href="{{ route('contact') }}">Get a Quote</a></p>
                                 </td>
                             </tr>
                         </table>
@@ -611,13 +611,13 @@
                                     <th>General Blog Content (400 to 500 words)</th>
                                     <td>&nbsp;</td>
                                     <th><a class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=General-Blog">Get a Quote</a></th>
+                                            href="{{ route('contact') }}">Get a Quote</a></th>
                                 </tr>
                                 <tr>
                                     <th>Professional Blog Content (Upto 800 words)</th>
                                     <td>&nbsp;</td>
                                     <th><a class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=Professional-Blog">Get a Quote</a>
+                                            href="{{ route('contact') }}">Get a Quote</a>
                                     </th>
                                 </tr>
                                 <tr>
@@ -629,28 +629,28 @@
                                     </th>
                                     <td>&nbsp;</td>
                                     <th><a class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=Newsletter-Campaign">Get a
+                                            href="{{ route('contact') }}">Get a
                                             Quote</a></th>
                                 </tr>
                                 <tr>
                                     <th>YouTube Video Creation</th>
                                     <td>&nbsp;</td>
                                     <th><a class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=YouTube-Video">Get a Quote</a>
+                                            href="{{ route('contact') }}">Get a Quote</a>
                                     </th>
                                 </tr>
                                 <tr>
                                     <th>Facebook Campaign Creation and Management</th>
                                     <td>&nbsp;</td>
                                     <th><a class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=Facebook-Campaign">Get a
+                                            href="{{ route('contact') }}">Get a
                                             Quote</a></th>
                                 </tr>
                                 <tr>
                                     <th>Google Campaign Creation and Management</th>
                                     <td>&nbsp;</td>
                                     <th><a class="btn btn-custom btn-small text-uppercase transition animated fadeInUp"
-                                            href="<?php echo 'https://' . $_SERVER['SERVER_NAME']; ?>/get-quote?packages=Google-Campaign">Get a Quote</a>
+                                            href="{{ route('contact') }}">Get a Quote</a>
                                     </th>
                                 </tr>
                             </tbody>

@@ -40,9 +40,9 @@
                     <div class="text-box mt-xs-30">
                         <div class="text-content mb-45">
                             <div class="box-title mb-20">
-                                <h4>About Global Tech Solution</h4>
+                                <h4>About Global Tech Digital</h4>
                             </div>
-                            <p>Global Tech Solution is a team of talented and enthusiastic individuals who aspire to take
+                            <p>Global Tech Digital is a team of talented and enthusiastic individuals who aspire to take
                                 new challenges. We have started creating websites since 2014 and never looked back since
                                 then. Now we are an organization that offers not just websites for businesses but complete
                                 digital business solutions that include website design and development, smart device apps
