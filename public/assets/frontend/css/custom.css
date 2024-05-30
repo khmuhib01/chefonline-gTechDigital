@@ -1,10 +1,12 @@
 /* Googlefont Poppins CDN Link */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Raleway,sans-serif;
+    font-family: Poppins,sans-serif;
 }
 
 nav {
@@ -358,4 +360,54 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .page-banner {
     background: #3e8da8!important;
+}
+
+#testimonial-section {
+    padding: 50px 0px;
+}
+
+#testimonial-section .text-content p {
+    color: #2f2c2c!important;
+}
+
+#testimonial-section .fa-comments {
+    color: #ed193a!important;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title h2{
+    color: #2f2c2c!important;
+    font-family: Hind, sans-serif;
+    font-weight: 500;
+}
+
+.title h4{
+    color: #2f2c2c!important;
+}
+
+#partners-section {
+    padding: 50px 0px;
+
+}
+
+#partners-section h4 {
+        font-size: 14px;
+    font-weight: 400;
+}
+
+.partners-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.partners-box img {
+    width: 200px;
+    height: 200px;
 }

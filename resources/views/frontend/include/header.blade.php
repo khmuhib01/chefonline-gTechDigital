@@ -30,7 +30,7 @@
                 </li>
                 <li> <a href="{{ route('packages') }}">Seo Packages</a> </li>
                 <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                <li><a href="{{ route('about-us') }}">About Us</a></li>
+                <li><a href="https://gtechdigital.co.uk/blog">Blog</a></li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 {{-- <button class="btn btn-primary hidden-sm hidden-md hidden-lg">Book Intro Call</button> --}}
                 <a href="{{ route('meet') }}"

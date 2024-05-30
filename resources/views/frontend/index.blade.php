@@ -298,12 +298,42 @@
         </div>
     </section>
 
+    {{-- Partners --}}
 
-    <!-- Testimonial -->
+    <div id="partners-section" class="ptb-xs-60">
+        <div class="container">
+            <div class="title">
+                <h4>Partners</h4>
+                <h2>Agency Partner</h2>
+            </div>
+            <div class="partners-box">
+                <div class="">
+                    <img src="https://static.semrush.com/agency-directory/shared/badge.svg" alt="partner" class="partners-img">
+                </div>
+                <div class="">
+                    <img src="https://reinforcelab.com/wp-content/uploads/2023/08/Wp-Engine-Agency-Partner-of-Reinforce-Lab.jpeg.webp" alt="partner" class="partners-img">
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+    {{-- Partners --}}
+
+
+
+
+
+    {{-- Testimonial --}}
     <div id="testimonial-section" class="ptb-xs-60">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
+                    <div class="title">
+                        <h4>Testimonial</h4>
+                        <h2>Best Client Testimonial</h2>
+                    </div>
                     <div id="testimonial">
                         <div class="item ">
                             <div class="about-block pt-45 quote-icon">
@@ -381,5 +411,6 @@
             </div>
         </div>
     </div>
+    {{-- End Testimonial --}}
 
 @endsection
