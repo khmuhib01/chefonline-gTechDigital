@@ -1,14 +1,25 @@
 @extends('frontend.include.layout')
 
 @section('title', 'Gtech | SEO, Digital Marketing, Web Design & Development')
-@section('description', 'UK based, GTech Digital Offers Website Design and Development, App Development with expert
+@section('description',
+    'UK based, GTech Digital Offers Website Design and Development, App Development with expert
     Digital Marketing services. Specialises in Restaurant SEO and SMM.')
 
 @section('content')
 
 
     <div class="main-banner">
-        <div id="rev_slider_34_1_wrapper" class="rev_slider_wrapper" data-alias="news-gallery34">
+        <div class="main-banner-mid">
+            <h1>One Stop Digital Marketing Solutions</h1>
+            <p>At GTech, we work with businesses across the UK crafting websites that engage customers and Digital Marketing
+                strategies that deliver results.</p>
+            <p>Our expert developer team is keen into designing products that portrays the right business proposition and
+                message for your business. You understand the business best so we always collaborate with you in the whole
+                process. </p>
+        </div>
+
+
+        {{-- <div id="rev_slider_34_1_wrapper" class="rev_slider_wrapper" data-alias="news-gallery34">
             <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
             <div id="rev_slider_34_1" class="rev_slider" data-version="5.0.7">
                 <ul>
@@ -74,17 +85,16 @@
                 </ul>
                 <div class="tp-bannertimer tp-bottom"></div>
             </div>
-        </div>
+        </div> --}}
 
     </div>
     <!--  Main Banner End Here-->
-    <section id="tw-features" class="tw-features-area">
+    <section id="" class="tw-features-area">
         <div class="container">
-            <div class="row tw-mb-25">
+            {{-- <div class="row tw-mb-25">
                 <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
                     <h1 class="column-title">One Stop Digital Marketing Solutions</h1>
                 </div>
-                <!-- Col End -->
                 <div class="col-md-7 col-md-offset-1 wow fadeInRight" data-wow-duration="1s">
                     <p class="features-text">At GTech, we work with businesses across the UK crafting websites that engage
                         customers and Digital Marketing strategies that deliver results.</p>
@@ -94,8 +104,7 @@
                         with you in the whole process.
                     </p>
                 </div>
-                <!-- Col End -->
-            </div>
+            </div> --}}
             <!-- End Row 1 -->
             <div class="row">
                 <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
@@ -236,8 +245,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-push-6 col-md-5 col-md-push-5 col-md-offset-1">
-                    <img class="img-responsive"
-                        src="{{ asset('assets/frontend/images/custom-software-development.jpg') }}"
+                    <img class="img-responsive" src="{{ asset('assets/frontend/images/custom-software-development.jpg') }}"
                         alt="Custom Software Development">
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-5">

@@ -15,11 +15,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="page-title">Restaurant SEO & Digital Marketing Service</h1>
-                    <h2 class="page-title">Search engine marketing agency offering branding and digital marketing solutions
+                    <h2 class="page-title">Search engine marketing agency offering branding and digital marketing
+                        solutions
                         for hotels, restaurants and takeaways. </h2>
                 </div>
             </div>
         </div>
+
     </div>
     <!-- END PAGE BANNER -->
 

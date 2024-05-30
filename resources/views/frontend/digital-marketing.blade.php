@@ -8,13 +8,16 @@
 @section('content')
 
 
-    <section class="inner-intro seo-banner light-color overlay-before parallax-background">
+    <div class="page-banner">
         <div class="container">
-            <div class="row title">
-                <p class="services-head"><span>Digital Marketing ( SEO and SMM )</span></p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-title">Digital Marketing (SEO & SMM)</h1>
+                    <!-- <h2 class="page-title">SEO Pricing for Restaurant & Local Business</h2> -->
+                </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- BEGIN MAIN CONTENT -->
     <div class="content-main">
 

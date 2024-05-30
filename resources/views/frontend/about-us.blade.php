@@ -10,14 +10,16 @@
 
     <!-- CONTENT -->
     <!-- Intro Section -->
-    <section class="inner-intro about-us light-color overlay-before parallax-background">
+    <div class="page-banner">
         <div class="container">
-            <div class="row title">
-                <h1 data-title="Investments Managment"><span>About us</span></h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-title">About Us</h1>
+                    <!-- <h2 class="page-title">SEO Pricing for Restaurant & Local Business</h2> -->
+                </div>
             </div>
         </div>
-    </section>
-    <!-- Intro Section -->
+    </div>
     <!-- Service Section -->
     <div id="services-section" class="pt-80 pt-xs-60">
         <div class="container">
@@ -40,9 +42,9 @@
                     <div class="text-box mt-xs-30">
                         <div class="text-content mb-45">
                             <div class="box-title mb-20">
-                                <h4>About Global Tech Solution</h4>
+                                <h4>About Global Tech Digital</h4>
                             </div>
-                            <p>Global Tech Solution is a team of talented and enthusiastic individuals who aspire to take
+                            <p>Global Tech Digital is a team of talented and enthusiastic individuals who aspire to take
                                 new challenges. We have started creating websites since 2014 and never looked back since
                                 then. Now we are an organization that offers not just websites for businesses but complete
                                 digital business solutions that include website design and development, smart device apps

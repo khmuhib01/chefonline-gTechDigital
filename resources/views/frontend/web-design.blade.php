@@ -11,13 +11,16 @@
 
     <!-- CONTENT -->
     <!-- Intro Section -->
-    <section class="inner-intro web-development-banner light-color overlay-before parallax-background">
+    <div class="page-banner">
         <div class="container">
-            <div class="row title">
-                <p class="services-head"><span>Web Design &amp; Development</span></p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-title">Web Design & Development</h1>
+                    <!-- <h2 class="page-title">SEO Pricing for Restaurant & Local Business</h2> -->
+                </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Intro Section -->
     <!-- Service Section -->
     <div id="services-section" class="pt-80 pt-xs-60">
