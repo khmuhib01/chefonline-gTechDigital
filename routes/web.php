@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\Frontend\AboutUs;
 use App\Http\Controllers\Frontend\Contact;
 use App\Http\Controllers\Frontend\CookiePolicy;
@@ -19,6 +22,7 @@ use App\Http\Controllers\Frontend\ServiceRestaurantSeo;
 use App\Http\Controllers\Frontend\ServiceSeo;
 use App\Http\Controllers\Frontend\ServiceSocialMedia;
 use App\Http\Controllers\Frontend\WebDesign;
+use App\Http\Controllers\Learn\PersonController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Mail;
 
@@ -70,3 +74,28 @@ Route::get('send-mail', function () {
 
     dd("Email is Sent.");
 });
+
+
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+Route::get('/person', [PersonController::class, 'index'])->name('person.index');
+Route::get('/person-add', [PersonController::class, 'create'])->name('person.create');
+Route::get('/person-edit', [PersonController::class, 'edit'])->name('person.edit');
+Route::get('/person-edit/{id}', [PersonController::class, 'update'])->name('person.edit');
+Route::get('/person-delete/{id}', [PersonController::class, 'delete'])->name('person.delete');
+
+
+Route::get('/department', [DepartmentController::class, 'index'])->name('department.index');
+Route::get('/department-add', [DepartmentController::class, 'create'])->name('department.create');
+Route::get('/department-edit', [DepartmentController::class, 'edit'])->name('department.edit');
+Route::get('/department-edit/{id}', [DepartmentController::class, 'update'])->name('department.edit');
+Route::get('/department-delete/{id}', [DepartmentController::class, 'delete'])->name('department.delete');
+
+
+Route::get('/course', [CourseController::class, 'index'])->name('course.index');
+Route::get('/course-add', [CourseController::class, 'create'])->name('course.create');
+Route::post('/course-store', [CourseController::class, 'store'])->name('course.store');
+Route::get('/course-edit/{id}', [CourseController::class, 'edit'])->name('course.edit');
+Route::put('/course-update/{id}', [CourseController::class, 'update'])->name('course.update');
+Route::delete('/course-delete/{id}', [CourseController::class, 'delete'])->name('course.delete');
