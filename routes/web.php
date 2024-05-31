@@ -81,6 +81,7 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 
 Route::get('/person', [PersonController::class, 'index'])->name('person.index');
 Route::get('/person-add', [PersonController::class, 'create'])->name('person.create');
+Route::post('/person-store', [PersonController::class, 'store'])->name('person.store');
 Route::get('/person-edit', [PersonController::class, 'edit'])->name('person.edit');
 Route::get('/person-edit/{id}', [PersonController::class, 'update'])->name('person.edit');
 Route::get('/person-delete/{id}', [PersonController::class, 'delete'])->name('person.delete');
