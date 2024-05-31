@@ -88,9 +88,10 @@ Route::get('/person-delete/{id}', [PersonController::class, 'delete'])->name('pe
 
 Route::get('/department', [DepartmentController::class, 'index'])->name('department.index');
 Route::get('/department-add', [DepartmentController::class, 'create'])->name('department.create');
-Route::get('/department-edit', [DepartmentController::class, 'edit'])->name('department.edit');
-Route::get('/department-edit/{id}', [DepartmentController::class, 'update'])->name('department.edit');
-Route::get('/department-delete/{id}', [DepartmentController::class, 'delete'])->name('department.delete');
+Route::post('/department-store', [DepartmentController::class, 'store'])->name('department.store');
+Route::get('/department-edit/{id}', [DepartmentController::class, 'edit'])->name('department.edit');
+Route::put('/department-update/{id}', [DepartmentController::class, 'update'])->name('department.update');
+Route::delete('/department-delete/{id}', [DepartmentController::class, 'delete'])->name('department.delete');
 
 
 Route::get('/course', [CourseController::class, 'index'])->name('course.index');
