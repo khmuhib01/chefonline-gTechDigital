@@ -39,6 +39,7 @@ Route::get('/', function () {
 
 Route::get('/portfolio', [Portfolio::class, 'index'])->name('portfolio');
 Route::get('/contact', [Contact::class, 'index'])->name('contact');
+Route::post('/send-mail', [Contact::class, 'mail'])->name('send-mail');
 Route::get('/packages-and-pricing', [Package::class, 'index'])->name('packages');
 Route::get('/web-development', [WebDesign::class, 'index'])->name('web-development');
 Route::get('/digital-marketing', [DigitalMarketing::class, 'index'])->name('digital-marketing');
@@ -59,14 +60,14 @@ Route::get('/privacy-policy', [PrivacyPolicy::class, 'index'])->name('privacy-po
 Route::get('/cookie-policy', [CookiePolicy::class, 'index'])->name('cookie-policy');
 Route::get('/meet', [Meet::class, 'index'])->name('meet');
 
-Route::get('send-mail', function () {
+// Route::get('send-mail', function () {
 
-    $details = [
-        'title' => 'Mail from ItSolutionStuff.com',
-        'body' => 'This is for testing email using smtp'
-    ];
+//     $details = [
+//         'title' => 'Mail from ItSolutionStuff.com',
+//         'body' => 'This is for testing email using smtp'
+//     ];
 
-    \Mail::to('mohibbullah.chefonline@gmail.com')->send(new \App\Mail\MyTestMail($details));
+//     Mail::to('mohibbullah.chefonline@gmail.com')->send(new \App\Mail\MyTestMail($details));
 
-    dd("Email is Sent.");
-});
+//     dd("Email is Sent.");
+// });
