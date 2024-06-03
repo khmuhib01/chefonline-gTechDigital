@@ -13,7 +13,7 @@
     <section class="inner-intro about-us light-color overlay-before parallax-background">
         <div class="container">
             <div class="row title">
-                <h1 data-title="Investments Managment"><span>About us</span></h1>
+                <h1 data-title="Investments Managment"><span>Privacy Policy</span></h1>
             </div>
         </div>
     </section>
