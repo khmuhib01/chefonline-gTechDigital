@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use App\Mail\MyTestMail;
+use App\Mail\ThankYouMail;
 
 class Contact extends Controller
 {
@@ -18,7 +19,10 @@ class Contact extends Controller
 
     public function mail(Request $request)
     {
-        $validator = Validator::make($request->all(), [
+
+        $input = array_map('trim', $request->all());
+
+        $validator = Validator::make($input, [
             'name' => 'required',
             'email' => 'required|email|regex:/(.+)@(.+)\.(.+)/i',
             'phone' => 'required|numeric|digits:11',
@@ -34,19 +38,15 @@ class Contact extends Controller
 
         $validated = $validator->validated();
 
-        $name = $validated['name'];
-        $email = $validated['email'];
-        $phone = $validated['phone'];
-        $message = $validated['message'];
+        $client_email = $validated['email'];
+        $sender_email = 'hello@gtechdigital.co.uk';
 
-        // Uncomment the line below to see the validated data
-        // dd($name . $email . $phone . $message);
+        // Send the email
+        Mail::to($sender_email)->send(new MyTestMail($validated));
 
-        // $title = 'Welcome to the laracoding.com example email';
-        // $body = 'Thank you for participating!';
+        // Send the thank-you email to the user
+        Mail::to($client_email)->send(new ThankYouMail($validated));
 
-        Mail::to('khmuhibofficial@gmail.com')->send(new MyTestMail($name, $phone));
-
-        return "Email sent successfully!";
+        return redirect()->back()->with('success', 'Email sent successfully!');
     }
 }

@@ -129,4 +129,18 @@
     </section>
 
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Check if the success alert exists
+            var successAlert = document.getElementById('success-alert');
+            if (successAlert) {
+                // Set a timeout to remove the alert after 2 seconds
+                setTimeout(function() {
+                    successAlert.style.display = 'none';
+                }, 2000);
+            }
+        });
+    </script>
+
+
 @endsection
