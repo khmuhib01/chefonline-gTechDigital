@@ -344,6 +344,11 @@
                                     </div>
                                     <div class="text-content">
                                         <p>
+                                            SEO Experts with Real Results!
+                                        </p>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
                                             They have an unmatched ability to share a vision and work to bring those
                                             aspirations to life. I would wholeheartedly recommend them for any web-based or
                                             software solution that you may require and we will continue working with them
@@ -352,31 +357,8 @@
                                     </div>
                                     <div class="text-center">
                                         <div class="client-name">
-                                            <strong>Mr Sohail, Managing Director</strong>
+                                            <strong>Jonathan S</strong>
                                             <span>ASC Tyres</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="about-block pt-45 quote-icon">
-                                <div class="text-box text-center">
-
-                                    <div class="star">
-                                        <i class="fa fa-comments" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="text-content">
-                                        <p>
-                                            I gave them a very complicated project and they stuck to the brief and
-                                            communicated well throughout. They were ideal for my needs, I am truly
-                                            delighted.
-                                        </p>
-                                    </div>
-                                    <div class="text-center">
-                                        <div class="client-name">
-                                            <strong>Mr Moinul, Proprietor</strong>
-                                            <span>Bangla News</span>
                                         </div>
                                     </div>
                                 </div>
@@ -391,15 +373,96 @@
                                     </div>
                                     <div class="text-content">
                                         <p>
-                                            Very Proffesional team, work successfully with strong collaboration. they faced
-                                            all the problems promptly addressing. I hope to work with them in the next
-                                            project
+                                            Top-Notch SEO Services
+                                        </p>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
+                                            I was initially skeptical about the impact of SEO on our business, but Gtech has completely changed my perspective. Their targeted approach has not only improved our rankings but also increased our organic traffic manifold. The team is knowledgeable and always on top of the latest search engine updates.
                                         </p>
                                     </div>
                                     <div class="text-center">
                                         <div class="client-name">
-                                            <strong>Mr lraj, Proprietor</strong>
-                                            <span>Toro Dorado Steak House </span>
+                                            <strong>Angela M</strong>
+                                            <span>ASC Tyres</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="about-block pt-45 quote-icon">
+                                <div class="text-box text-center">
+
+                                    <div class="star">
+                                        <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
+                                            Effective SEO Strategies
+                                        </p>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
+                                            Partnering with Gtech for our SEO needs has been a game changer. Their strategic insights and optimizations have led to a significant boost in our online presence. We've seen a steady increase in qualified leads, all thanks to their meticulous SEO efforts.
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="client-name">
+                                            <strong>Marcus R</strong>
+                                            <span>ASC Tyres</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="about-block pt-45 quote-icon">
+                                <div class="text-box text-center">
+
+                                    <div class="star">
+                                        <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
+                                            SEO Mastery That Drives Growth
+                                        </p>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
+                                            Gtech's SEO team is exceptional. They've managed to get several of our keywords to rank at the top, which has directly influenced our bottom line. Their commitment to staying ahead of SEO trends and their detailed reporting makes them a valuable partner.
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="client-name">
+                                            <strong>Emily V</strong>
+                                            <span>ASC Tyres</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="about-block pt-45 quote-icon">
+                                <div class="text-box text-center">
+
+                                    <div class="star">
+                                        <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
+                                            Reliable and Strategic SEO Partner
+                                        </p>
+                                    </div>
+                                    <div class="text-content">
+                                        <p>
+                                            If you're looking for a reliable SEO agency that delivers tangible results, Gtech is the way to go. Their comprehensive SEO audits and tailored strategies have greatly enhanced our site's performance. We appreciate their proactive approach and continuous efforts to optimize our digital assets.
+                                        </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="client-name">
+                                            <strong>Derek L</strong>
+                                            <span>ASC Tyres</span>
                                         </div>
                                     </div>
                                 </div>
