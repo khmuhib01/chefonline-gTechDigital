@@ -57,7 +57,7 @@
                             <div class="box-title mb-20">
                                 <h1 class="services-text-heading">BUSINESS SOFTWARE TAILORED TO YOUR NEEDS</h1>
                             </div>
-                            <p><b>GTech Solutions</b> develops <b>customized software solution</b> for businesses as per
+                            <p><b>GTech Digital</b> develops <b>customized software solution</b> for businesses as per
                                 enterprise needs. We develop platform independent software solutions that meet the unique
                                 demands of our customers.</p>
 

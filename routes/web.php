@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FaqController;
 use App\Http\Controllers\Frontend\AboutUs;
 use App\Http\Controllers\Frontend\Contact;
 use App\Http\Controllers\Frontend\CookiePolicy;
@@ -20,7 +21,6 @@ use App\Http\Controllers\Frontend\ServiceSeo;
 use App\Http\Controllers\Frontend\ServiceSocialMedia;
 use App\Http\Controllers\Frontend\WebDesign;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +39,7 @@ Route::get('/', function () {
 
 Route::get('/portfolio', [Portfolio::class, 'index'])->name('portfolio');
 Route::get('/contact', [Contact::class, 'index'])->name('contact');
+Route::post('/send-mail', [Contact::class, 'mail'])->name('send-mail');
 Route::get('/packages-and-pricing', [Package::class, 'index'])->name('packages');
 Route::get('/web-development', [WebDesign::class, 'index'])->name('web-development');
 Route::get('/digital-marketing', [DigitalMarketing::class, 'index'])->name('digital-marketing');
@@ -58,15 +59,4 @@ Route::get('/about-us', [AboutUs::class, 'index'])->name('about-us');
 Route::get('/privacy-policy', [PrivacyPolicy::class, 'index'])->name('privacy-policy');
 Route::get('/cookie-policy', [CookiePolicy::class, 'index'])->name('cookie-policy');
 Route::get('/meet', [Meet::class, 'index'])->name('meet');
-
-Route::get('send-mail', function () {
-
-    $details = [
-        'title' => 'Mail from ItSolutionStuff.com',
-        'body' => 'This is for testing email using smtp'
-    ];
-
-    \Mail::to('mohibbullah.chefonline@gmail.com')->send(new \App\Mail\MyTestMail($details));
-
-    dd("Email is Sent.");
-});
+Route::get('/faq', [FaqController::class, 'index'])->name('faq');

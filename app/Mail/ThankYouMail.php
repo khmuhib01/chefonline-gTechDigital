@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class MyTestMail extends Mailable
+class ThankYouMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -30,6 +30,6 @@ class MyTestMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Gtech Digital Contact Us')->view('frontend.mail.mail', ['details' => $this->details]);
+        return $this->subject('Welcome to Global Tech Digital')->view('frontend.mail.thank-you-mail', ['details' => $this->details]);
     }
 }

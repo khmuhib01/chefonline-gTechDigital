@@ -1,12 +1,17 @@
+<!-- resources/views/frontend/mail/mail.blade.php -->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ItsolutionStuff.com</title>
+    <title>Global Tech Digital Contact Enquiry</title>
 </head>
 <body>
-    <h1>{{ $details['title'] }}</h1>
-    <p>{{ $details['body'] }}</p>
-   
+
+    <h1>Name: {{ $details['name'] }}</h1>
+    <p>Email: {{ $details['email'] }}</p>
+    <p>Phone: {{ $details['phone'] }}</p>
+    <p>Message: {{ $details['message'] }}</p>
+    
     <p>Thank you</p>
 </body>
 </html>
