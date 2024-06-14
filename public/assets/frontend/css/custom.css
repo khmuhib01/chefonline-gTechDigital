@@ -405,3 +405,8 @@ nav .navbar .links li:hover .js-sub-menu {
     width: 150px;
     height: 150px;
 }
+
+
+.gray-section {
+    border-top: none;
+}

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FaqController;
 use App\Http\Controllers\Frontend\AboutUs;
 use App\Http\Controllers\Frontend\Contact;
 use App\Http\Controllers\Frontend\CookiePolicy;
@@ -58,3 +59,4 @@ Route::get('/about-us', [AboutUs::class, 'index'])->name('about-us');
 Route::get('/privacy-policy', [PrivacyPolicy::class, 'index'])->name('privacy-policy');
 Route::get('/cookie-policy', [CookiePolicy::class, 'index'])->name('cookie-policy');
 Route::get('/meet', [Meet::class, 'index'])->name('meet');
+Route::get('/faq', [FaqController::class, 'index'])->name('faq');
