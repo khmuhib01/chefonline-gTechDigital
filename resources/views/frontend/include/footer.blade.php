@@ -66,6 +66,9 @@
                     <div class="col-md-6">
                         <ul class="link blog-link">
                             <li>
+                                <a href="{{ route('faq')}}">Faq</a>
+                            </li>
+                            <li>
                                 <a href="{{ route('about-us')}}">About Us</a>
                             </li>
                             <li>
