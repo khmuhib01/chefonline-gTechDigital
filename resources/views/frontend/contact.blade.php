@@ -107,6 +107,16 @@
                                     @endif
                                 </div>
                             </div>
+                            <div class="col-sm-12">
+                                <div class="form-field">
+                                    <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
+                                    @if ($errors->has('g-recaptcha-response'))
+                                        <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                                    @endif
+                                </div>
+                            </div>
+
+
                             {{-- <div class="col-md-6">
                                 <div class="form-field">
                                     <div class="capcha">
@@ -128,6 +138,7 @@
         </div>
     </section>
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
